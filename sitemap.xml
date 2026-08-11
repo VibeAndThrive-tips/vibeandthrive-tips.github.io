@@ -2,75 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Main Pages -->
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/</loc>
+    <loc>https://vibeandthrive-tips.github.io/</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/about.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/about.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/contact.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/contact.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/privacy.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/privacy.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/terms.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/terms.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/sitemap.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/sitemap.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/disclaimer.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 
   <!-- Category Pages -->
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/categories/wellness.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/categories/wellness.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/categories/nutrition.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/categories/nutrition.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/categories/productivity.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/categories/productivity.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/categories/home-living.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/categories/home-living.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/categories/finance.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/categories/finance.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/categories/relationships.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/categories/relationships.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -78,235 +84,235 @@
 
   <!-- Tip Pages -->
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/morning-wellness.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/morning-wellness.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/mindful-productivity.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/mindful-productivity.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/healthy-eating.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/healthy-eating.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/better-sleep.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/better-sleep.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/home-fitness.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/home-fitness.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/mental-wellbeing.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/mental-wellbeing.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/stress-management.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/stress-management.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/relationship-building.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/relationship-building.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/money-management.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/money-management.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/energy-boosting.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/energy-boosting.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/home-organization.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/home-organization.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/digital-detox.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/digital-detox.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/healthy-habits.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/healthy-habits.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/self-care-routines.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/self-care-routines.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/time-management.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/time-management.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/creative-expression.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/creative-expression.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/social-connection.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/social-connection.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/sustainable-living.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/sustainable-living.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/personal-growth.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/personal-growth.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/decluttering.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/decluttering.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/energy-efficient.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/energy-efficient.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/indoor-plants.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/indoor-plants.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/color-psychology.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/color-psychology.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/meal-planning.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/meal-planning.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/hydration.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/hydration.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/mindful-eating.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/mindful-eating.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/goal-setting.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/goal-setting.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/time-blocking.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/time-blocking.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/digital-minimalism.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/digital-minimalism.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/budgeting-basics.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/budgeting-basics.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/smart-saving.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/smart-saving.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/mindful-spending.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/mindful-spending.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/effective-communication.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/effective-communication.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/healthy-boundaries.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/healthy-boundaries.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/gratitude-practice.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/gratitude-practice.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/work-life-balance.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/work-life-balance.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/journaling-benefits.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/journaling-benefits.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/walking-fitness.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/walking-fitness.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harikishan89.github.io/vibeandthrive/tips/positive-thinking.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/tips/positive-thinking.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

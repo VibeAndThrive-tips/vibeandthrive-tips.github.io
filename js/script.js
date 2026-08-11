@@ -301,6 +301,42 @@ window.addEventListener('load', () => {
     document.body.classList.add('loaded');
 });
 
+// Cookie Consent Banner
+function initCookieConsent() {
+    if (localStorage.getItem('cookieConsent')) return;
+
+    const banner = document.createElement('div');
+    banner.id = 'cookie-consent';
+    banner.style.cssText = `
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #1f2937;
+        color: #f9fafb;
+        padding: 16px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 12px;
+        z-index: 9999;
+        box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+        font-size: 14px;
+    `;
+    banner.innerHTML = `
+        <p style="margin:0;flex:1;min-width:200px;">We use cookies to improve your experience. By continuing to use this site, you agree to our <a href="/privacy.html" style="color:#6366f1;text-decoration:underline;">Privacy Policy</a>.</p>
+        <button id="accept-cookies" style="background:#6366f1;color:#fff;border:none;padding:10px 24px;border-radius:6px;cursor:pointer;font-weight:600;">Accept</button>
+    `;
+    document.body.appendChild(banner);
+
+    document.getElementById('accept-cookies').addEventListener('click', () => {
+        localStorage.setItem('cookieConsent', 'true');
+        banner.remove();
+    });
+}
+document.addEventListener('DOMContentLoaded', initCookieConsent);
+
 // Simple analytics tracking (placeholder)
 function trackEvent(eventName, eventData = {}) {
     // This is where you would integrate with analytics services
