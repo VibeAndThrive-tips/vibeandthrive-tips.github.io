@@ -10,7 +10,6 @@ Crawl-delay: 1
 # Allow all content for search engines
 Allow: /css/
 Allow: /js/
-Allow: /images/
 
 # Block any admin or private directories (if added later)
 Disallow: /admin/
