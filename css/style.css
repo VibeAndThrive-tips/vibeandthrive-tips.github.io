@@ -2036,3 +2036,21 @@ section { padding: var(--spacing-20) 0; }
     font-weight: 500;
 }
 .newsletter-meta-item i { font-size: 0.875rem; }
+
+/* ===== CONTENT DISCLAIMER ===== */
+.content-disclaimer {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-3);
+    background: #FFFBEB;
+    border: 1px solid #F59E0B;
+    border-left: 4px solid #F59E0B;
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-4) var(--spacing-5);
+    margin-bottom: var(--spacing-8);
+    font-size: 0.875rem;
+    color: #78350F;
+    line-height: 1.6;
+}
+.content-disclaimer i { color: #F59E0B; font-size: 1rem; margin-top: 2px; flex-shrink: 0; }
+.content-disclaimer p { margin: 0; }
