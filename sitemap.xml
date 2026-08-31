@@ -2,34 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vibeandthrive-tips.github.io/</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
   </url>
   <url>
     <loc>https://vibeandthrive-tips.github.io/about.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/categories/finance.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/categories/home-living.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/categories/nutrition.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/categories/productivity.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/categories/relationships.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/categories/wellness.html</loc>
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
@@ -49,12 +25,108 @@
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/better-sleep.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/sitemap.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/categories/food-cooking.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/categories/home-living.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/categories/productivity.html</loc>
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/budgeting-basics.html</loc>
+    <loc>https://vibeandthrive-tips.github.io/categories/travel.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/categories/wellness.html</loc>
     <lastmod>2026-08-11</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/categories/relationships.html</loc>
+    <lastmod>2026-08-11</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/easy-weeknight-dinners.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/meal-prep-beginners.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/indian-cooking-basics.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/cooking-on-budget.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/spices-flavors-guide.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/pantry-essentials.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/healthy-breakfast-ideas.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/one-pot-meals.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/air-fryer-tips.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/kitchen-organization.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/home-decor-ideas.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/diy-home-projects.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/small-space-living.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/lighting-tips.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/upcycling-ideas.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/budget-travel-tips.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/packing-hacks.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/solo-travel-tips.html</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://vibeandthrive-tips.github.io/tips/travel-planning-guide.html</loc>
+    <lastmod>2026-08-31</lastmod>
   </url>
   <url>
     <loc>https://vibeandthrive-tips.github.io/tips/color-psychology.html</loc>
@@ -81,10 +153,6 @@
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/energy-boosting.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
     <loc>https://vibeandthrive-tips.github.io/tips/energy-efficient.html</loc>
     <lastmod>2026-08-11</lastmod>
   </url>
@@ -93,31 +161,11 @@
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/gratitude-practice.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
     <loc>https://vibeandthrive-tips.github.io/tips/healthy-boundaries.html</loc>
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/healthy-eating.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/healthy-habits.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/home-fitness.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
     <loc>https://vibeandthrive-tips.github.io/tips/home-organization.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/hydration.html</loc>
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
@@ -129,27 +177,7 @@
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/meal-planning.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/mental-wellbeing.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/mindful-eating.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
     <loc>https://vibeandthrive-tips.github.io/tips/mindful-productivity.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/mindful-spending.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/money-management.html</loc>
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
@@ -161,10 +189,6 @@
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/positive-thinking.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
     <loc>https://vibeandthrive-tips.github.io/tips/relationship-building.html</loc>
     <lastmod>2026-08-11</lastmod>
   </url>
@@ -173,15 +197,7 @@
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/smart-saving.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
     <loc>https://vibeandthrive-tips.github.io/tips/social-connection.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/stress-management.html</loc>
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
@@ -197,27 +213,7 @@
     <lastmod>2026-08-11</lastmod>
   </url>
   <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/walking-fitness.html</loc>
-    <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
     <loc>https://vibeandthrive-tips.github.io/tips/work-life-balance.html</loc>
     <lastmod>2026-08-11</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/sitemap.html</loc>
-    <lastmod>2026-08-31</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/india-salary-saving.html</loc>
-    <lastmod>2026-08-31</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/sip-vs-fd.html</loc>
-    <lastmod>2026-08-31</lastmod>
-  </url>
-  <url>
-    <loc>https://vibeandthrive-tips.github.io/tips/emergency-fund-india.html</loc>
-    <lastmod>2026-08-31</lastmod>
   </url>
 </urlset>
