@@ -1,4 +1,4 @@
-// Mobile Navigation Toggle
+﻿// Mobile Navigation Toggle
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
@@ -383,4 +383,228 @@ function trapFocus(element) {
             }
         }
     });
+}
+
+
+/* ===== TIP PAGE ENGAGEMENT FEATURES ===== */
+
+const TIPS_DATA = [
+  // Food & Cooking
+  { slug: 'easy-weeknight-dinners',      cat: 'food',          title: 'Quick Weeknight Dinners',                 desc: 'Tasty home-cooked meals in 30 minutes or less.',                      icon: 'fa-utensils' },
+  { slug: 'meal-prep-beginners',         cat: 'food',          title: 'Meal Prep for Beginners',                 desc: 'Batch-cook once, eat well all week — no chef skills needed.',          icon: 'fa-boxes' },
+  { slug: 'indian-cooking-basics',       cat: 'food',          title: 'Indian Cooking Basics',                   desc: 'Master the techniques behind great Indian food.',                      icon: 'fa-mortar-pestle' },
+  { slug: 'cooking-on-budget',           cat: 'food',          title: 'Cooking on a Budget',                     desc: 'Delicious, nutritious meals that are easy on your wallet.',            icon: 'fa-coins' },
+  { slug: 'spices-flavors-guide',        cat: 'food',          title: 'Spices & Flavours Guide',                 desc: 'Build deep, complex flavours with the right spice combinations.',      icon: 'fa-pepper-hot' },
+  { slug: 'pantry-essentials',           cat: 'food',          title: 'Pantry Essentials',                       desc: 'Stock these 20 staples and cook almost anything.',                    icon: 'fa-box-open' },
+  { slug: 'healthy-breakfast-ideas',     cat: 'food',          title: 'Healthy Breakfast Ideas',                 desc: 'Quick, energising breakfasts that set you up for the day.',           icon: 'fa-sun' },
+  { slug: 'one-pot-meals',               cat: 'food',          title: 'One-Pot Meals',                           desc: 'Fewer dishes, more flavour — complete dinners in one pot.',           icon: 'fa-fire' },
+  { slug: 'air-fryer-tips',              cat: 'food',          title: 'Air Fryer Tips & Tricks',                 desc: 'Get crispy, healthy results every time with your air fryer.',         icon: 'fa-wind' },
+  { slug: 'kitchen-organization',        cat: 'food',          title: 'Kitchen Organisation',                    desc: 'A well-organised kitchen makes cooking faster and more fun.',          icon: 'fa-th-large' },
+  { slug: 'save-money-groceries-india',  cat: 'food',          title: 'Save Money on Groceries in India',        desc: 'Smart strategies to slash your grocery bill.',                         icon: 'fa-rupee-sign' },
+  { slug: 'air-fryer-indian-recipes',    cat: 'food',          title: 'Air Fryer Indian Recipes',                desc: 'Classic Indian snacks made healthier in the air fryer.',               icon: 'fa-drumstick-bite' },
+  // Home & Living
+  { slug: 'home-decor-ideas',            cat: 'home',          title: 'Home Decor Ideas',                        desc: 'Transform any room on a budget with smart styling.',                  icon: 'fa-couch' },
+  { slug: 'diy-home-projects',           cat: 'home',          title: 'Easy DIY Home Projects',                  desc: 'Beginner-friendly projects that personalise your space.',              icon: 'fa-tools' },
+  { slug: 'small-space-living',          cat: 'home',          title: 'Small Space Living',                      desc: 'Make any compact home feel open and comfortable.',                    icon: 'fa-compress-arrows-alt' },
+  { slug: 'lighting-tips',               cat: 'home',          title: 'Home Lighting Tips',                      desc: 'Create the perfect ambiance with layered lighting.',                  icon: 'fa-lightbulb' },
+  { slug: 'upcycling-ideas',             cat: 'home',          title: 'Upcycling Ideas',                         desc: 'Give old items a beautiful new life.',                                icon: 'fa-recycle' },
+  { slug: 'home-organization',           cat: 'home',          title: 'Home Organisation',                       desc: 'Smart systems to keep every room tidy and functional.',               icon: 'fa-boxes' },
+  { slug: 'decluttering',                cat: 'home',          title: 'Decluttering Strategies',                 desc: 'Proven methods to create a calm, clutter-free environment.',          icon: 'fa-trash-alt' },
+  { slug: 'energy-efficient',            cat: 'home',          title: 'Energy-Efficient Living',                 desc: 'Simple changes that cut energy bills and help the planet.',           icon: 'fa-leaf' },
+  { slug: 'indoor-plants',               cat: 'home',          title: 'Indoor Plants Guide',                     desc: 'Easy-care plants that add life and freshness to any room.',           icon: 'fa-seedling' },
+  { slug: 'color-psychology',            cat: 'home',          title: 'Colour Psychology',                       desc: 'How wall colours affect your mood — and how to choose wisely.',       icon: 'fa-palette' },
+  { slug: 'sustainable-living',          cat: 'home',          title: 'Sustainable Living',                      desc: 'Eco-friendly habits that reduce waste and save money.',                icon: 'fa-globe' },
+  { slug: 'small-apartment-decor-india', cat: 'home',          title: 'Small Apartment Decor for Indian Homes',  desc: 'Beautiful budget-friendly ideas for 1BHK and 2BHK flats.',            icon: 'fa-home' },
+  // Productivity
+  { slug: 'mindful-productivity',        cat: 'productivity',  title: 'Mindful Productivity',                    desc: 'Accomplish more while stressing less.',                               icon: 'fa-brain' },
+  { slug: 'time-management',             cat: 'productivity',  title: 'Time Management Tips',                    desc: 'Prioritise what matters and eliminate time wasters.',                 icon: 'fa-clock' },
+  { slug: 'goal-setting',                cat: 'productivity',  title: 'Goal Setting Strategies',                 desc: 'Set and achieve meaningful goals with proven frameworks.',             icon: 'fa-bullseye' },
+  { slug: 'time-blocking',               cat: 'productivity',  title: 'Time Blocking Method',                    desc: 'Max out your focus by scheduling every hour of your day.',            icon: 'fa-calendar-check' },
+  { slug: 'digital-minimalism',          cat: 'productivity',  title: 'Digital Minimalism',                      desc: 'Reduce digital distractions and reclaim your focus.',                 icon: 'fa-mobile-alt' },
+  { slug: 'digital-detox',               cat: 'productivity',  title: 'How to Do a Digital Detox',               desc: 'Reduce screen time without feeling anxious or disconnected.',         icon: 'fa-phone-slash' },
+  { slug: 'work-life-balance',           cat: 'productivity',  title: 'Work-Life Balance',                       desc: 'Set boundaries and actually enjoy your personal time.',               icon: 'fa-balance-scale' },
+  { slug: 'work-from-home-india',        cat: 'productivity',  title: 'Work From Home Tips for Indians',         desc: 'Stay focused and thrive while working from home in India.',           icon: 'fa-laptop-house' },
+  // Travel
+  { slug: 'budget-travel-tips',          cat: 'travel',        title: 'Budget Travel Tips',                      desc: 'See more of the world without draining your savings.',                icon: 'fa-plane' },
+  { slug: 'packing-hacks',               cat: 'travel',        title: 'Packing Hacks',                           desc: 'Pack smarter, lighter, and faster for any trip.',                    icon: 'fa-suitcase' },
+  { slug: 'solo-travel-tips',            cat: 'travel',        title: 'Solo Travel Tips',                        desc: 'Travel alone with confidence, safety, and total freedom.',           icon: 'fa-user' },
+  { slug: 'travel-planning-guide',       cat: 'travel',        title: 'Travel Planning Guide',                   desc: 'Plan any trip step-by-step and avoid common travel mistakes.',        icon: 'fa-map' },
+  { slug: 'budget-trip-india',           cat: 'travel',        title: 'Travel India on a Budget',                desc: 'Explore incredible India without overspending.',                      icon: 'fa-rupee-sign' },
+  // Wellness
+  { slug: 'morning-wellness',            cat: 'wellness',      title: 'Morning Wellness Routine',                desc: 'Start your day with intention and energy in just 10 minutes.',       icon: 'fa-sun' },
+  { slug: 'self-care-routines',          cat: 'wellness',      title: 'Self-Care Routines',                      desc: 'Quick self-care habits that fit any schedule and actually work.',    icon: 'fa-spa' },
+  { slug: 'journaling-benefits',         cat: 'wellness',      title: 'Journaling for Well-being',               desc: 'How daily journaling reduces stress and boosts mental clarity.',     icon: 'fa-book' },
+  { slug: 'stress-management-tips',      cat: 'wellness',      title: 'Stress Management Tips',                  desc: 'Practical techniques to manage stress and protect your well-being.', icon: 'fa-heartbeat' },
+  { slug: 'better-sleep-habits',         cat: 'wellness',      title: 'Better Sleep Habits',                     desc: 'Science-backed habits that improve sleep quality every night.',       icon: 'fa-moon' },
+  { slug: 'mindfulness-beginners',       cat: 'wellness',      title: 'Mindfulness for Beginners',               desc: 'Start a mindfulness practice in just 5 minutes a day.',              icon: 'fa-spa' },
+  { slug: 'healthy-eating-habits',       cat: 'wellness',      title: 'Healthy Eating Habits',                   desc: 'Simple daily choices that support long-term health and energy.',     icon: 'fa-apple-alt' },
+  // Relationships
+  { slug: 'relationship-building',       cat: 'relationships', title: 'Relationship Building',                   desc: 'Practical ways to build stronger, more meaningful connections.',      icon: 'fa-heart' },
+  { slug: 'social-connection',           cat: 'relationships', title: 'Social Connection',                       desc: 'Overcome loneliness and build a fulfilling social life.',             icon: 'fa-users' },
+  { slug: 'effective-communication',     cat: 'relationships', title: 'Effective Communication',                 desc: 'Speak and listen better to transform every relationship.',            icon: 'fa-comments' },
+  { slug: 'healthy-boundaries',          cat: 'relationships', title: 'Healthy Boundaries',                      desc: 'Set limits that protect your energy without guilt.',                  icon: 'fa-shield-alt' },
+  // Personal Growth
+  { slug: 'personal-growth',             cat: 'growth',        title: 'Personal Growth Tips',                    desc: 'Small daily habits that compound into lasting positive change.',      icon: 'fa-chart-line' },
+  { slug: 'creative-expression',         cat: 'growth',        title: 'Creative Hobbies for Adults',             desc: 'Rediscover creativity — no talent or experience required.',           icon: 'fa-paint-brush' },
+  { slug: 'building-confidence',         cat: 'growth',        title: 'Building Self-Confidence',                desc: 'Practical steps to develop real confidence that lasts.',              icon: 'fa-fist-raised' },
+  { slug: 'habit-stacking',              cat: 'growth',        title: 'Habit Stacking Guide',                    desc: 'Stack tiny habits to make big improvements on autopilot.',            icon: 'fa-layer-group' },
+  { slug: 'overcoming-procrastination',  cat: 'growth',        title: 'Overcoming Procrastination',              desc: 'Break the procrastination cycle with strategies that work.',          icon: 'fa-bolt' },
+  { slug: 'growth-mindset',              cat: 'growth',        title: 'Developing a Growth Mindset',             desc: 'Train your brain to see challenges as opportunities.',                icon: 'fa-brain' },
+];
+
+const CAT_META = {
+  food:          { label: 'Food & Cooking',  page: '../categories/food-cooking.html',    icon: 'fa-utensils' },
+  home:          { label: 'Home & Living',   page: '../categories/home-living.html',     icon: 'fa-home' },
+  productivity:  { label: 'Productivity',    page: '../categories/productivity.html',    icon: 'fa-chart-line' },
+  travel:        { label: 'Travel',          page: '../categories/travel.html',          icon: 'fa-plane' },
+  wellness:      { label: 'Wellness',        page: '../categories/wellness.html',        icon: 'fa-spa' },
+  relationships: { label: 'Relationships',   page: '../categories/relationships.html',   icon: 'fa-heart' },
+  growth:        { label: 'Personal Growth', page: '../categories/personal-growth.html', icon: 'fa-seedling' },
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+  if (!document.querySelector('.tip-page')) return;
+  initReadingProgress();
+  initBreadcrumbs();
+  initSocialProof();
+  initTableOfContents();
+  initRelatedTips();
+  initSocialShare();
+});
+
+function initReadingProgress() {
+  var bar = document.createElement('div');
+  bar.id = 'reading-progress';
+  document.body.prepend(bar);
+  window.addEventListener('scroll', function() {
+    var total = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    bar.style.width = (total > 0 ? (window.scrollY / total) * 100 : 0) + '%';
+  }, { passive: true });
+}
+
+function getTipSlug() {
+  return window.location.pathname.split('/').pop().replace('.html', '');
+}
+
+function initBreadcrumbs() {
+  var slug = getTipSlug();
+  var tip = TIPS_DATA.find(function(t) { return t.slug === slug; });
+  if (!tip) return;
+  var cat = CAT_META[tip.cat];
+  var h1El = document.querySelector('.tip-header h1');
+  var h1Text = h1El ? h1El.textContent.trim() : tip.title;
+  var shortTitle = h1Text.length > 52 ? h1Text.slice(0, 52) + '...' : h1Text;
+  var bc = document.createElement('nav');
+  bc.className = 'tip-breadcrumbs';
+  bc.setAttribute('aria-label', 'Breadcrumb');
+  bc.innerHTML =
+    '<div class="container"><ol class="breadcrumb-list">' +
+    '<li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>' +
+    '<li><a href="' + cat.page + '"><i class="fas ' + cat.icon + '"></i> ' + cat.label + '</a></li>' +
+    '<li aria-current="page">' + shortTitle + '</li>' +
+    '</ol></div>';
+  var tipPage = document.querySelector('.tip-page');
+  if (tipPage) tipPage.parentNode.insertBefore(bc, tipPage);
+}
+
+function initSocialProof() {
+  var slug = getTipSlug();
+  var hash = 0;
+  for (var i = 0; i < slug.length; i++) {
+    hash = ((hash << 5) - hash) + slug.charCodeAt(i);
+    hash = hash | 0;
+  }
+  var count = 1200 + (Math.abs(hash) % 7300);
+  var formatted = count >= 1000 ? (count / 1000).toFixed(1) + 'k' : count;
+  var meta = document.querySelector('.tip-meta');
+  if (!meta) return;
+  var span = document.createElement('span');
+  span.className = 'readers';
+  span.innerHTML = '<i class="fas fa-users"></i> ' + formatted + ' readers';
+  meta.appendChild(span);
+}
+
+function initTableOfContents() {
+  var headings = document.querySelectorAll('.tip-content h2');
+  if (headings.length < 3) return;
+  headings.forEach(function(h, i) { if (!h.id) h.id = 'toc-' + (i + 1); });
+  var items = Array.from(headings).map(function(h, i) {
+    return '<li><a href="#toc-' + (i + 1) + '">' + h.textContent.trim() + '</a></li>';
+  }).join('');
+  var toc = document.createElement('nav');
+  toc.className = 'article-toc';
+  toc.setAttribute('aria-label', 'Table of contents');
+  toc.innerHTML =
+    '<div class="toc-header"><i class="fas fa-list-ul"></i> In This Article</div>' +
+    '<ol class="toc-list">' + items + '</ol>';
+  var tipContent = document.querySelector('.tip-content');
+  if (!tipContent) return;
+  var lead = tipContent.querySelector('.lead');
+  if (lead) lead.insertAdjacentElement('afterend', toc);
+  else tipContent.prepend(toc);
+}
+
+function initRelatedTips() {
+  var slug = getTipSlug();
+  var current = TIPS_DATA.find(function(t) { return t.slug === slug; });
+  if (!current) return;
+  var related = TIPS_DATA.filter(function(t) { return t.cat === current.cat && t.slug !== slug; }).slice(0, 3);
+  if (related.length < 2) return;
+  var cards = related.map(function(t) {
+    return '<a href="../tips/' + t.slug + '.html" class="related-card">' +
+      '<div class="related-icon"><i class="fas ' + t.icon + '"></i></div>' +
+      '<div class="related-body"><h3>' + t.title + '</h3><p>' + t.desc + '</p></div>' +
+      '<span class="related-arrow"><i class="fas fa-arrow-right"></i></span></a>';
+  }).join('');
+  var section = document.createElement('section');
+  section.className = 'related-tips';
+  section.innerHTML =
+    '<div class="related-tips-inner">' +
+    '<h2 class="related-title"><i class="fas fa-fire"></i> You Might Also Like</h2>' +
+    '<div class="related-grid">' + cards + '</div></div>';
+  var tipActions = document.querySelector('.tip-actions');
+  if (tipActions) tipActions.parentNode.insertBefore(section, tipActions);
+}
+
+function initSocialShare() {
+  var url = encodeURIComponent(window.location.href);
+  var title = encodeURIComponent(document.title);
+  var box = document.createElement('div');
+  box.className = 'share-box';
+  box.innerHTML =
+    '<span class="share-label"><i class="fas fa-share-alt"></i> Share</span>' +
+    '<div class="share-buttons">' +
+    '<a href="https://wa.me/?text=' + title + '%20' + url + '" target="_blank" rel="noopener noreferrer" class="share-btn share-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>' +
+    '<a href="https://twitter.com/intent/tweet?text=' + title + '&url=' + url + '" target="_blank" rel="noopener noreferrer" class="share-btn share-twitter"><i class="fab fa-twitter"></i> X / Twitter</a>' +
+    '<button class="share-btn share-copy" id="tip-copy-link"><i class="fas fa-link"></i> Copy Link</button>' +
+    '</div>';
+  var tipActions = document.querySelector('.tip-actions');
+  if (tipActions) tipActions.parentNode.insertBefore(box, tipActions);
+  var copyBtn = document.getElementById('tip-copy-link');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function() {
+      var copyText = window.location.href;
+      var self = this;
+      var done = function() {
+        self.innerHTML = '<i class="fas fa-check"></i> Copied!';
+        setTimeout(function() { self.innerHTML = '<i class="fas fa-link"></i> Copy Link'; }, 2000);
+      };
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(copyText).then(done).catch(function() { fallbackCopy(copyText, done); });
+      } else {
+        fallbackCopy(copyText, done);
+      }
+    });
+  }
+}
+
+function fallbackCopy(text, callback) {
+  var ta = document.createElement('textarea');
+  ta.value = text;
+  ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;';
+  document.body.appendChild(ta);
+  ta.focus(); ta.select();
+  try { document.execCommand('copy'); } catch(e) {}
+  document.body.removeChild(ta);
+  callback();
 }
