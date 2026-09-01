@@ -51,24 +51,10 @@ if (newsletterForm) {
         const email = this.querySelector('input[type="email"]').value;
         
         if (email) {
-            // Simulate form submission
             const button = this.querySelector('button');
-            const originalText = button.textContent;
-            
-            button.textContent = 'Subscribing...';
             button.disabled = true;
-            
-            setTimeout(() => {
-                button.textContent = 'Subscribed!';
-                button.style.backgroundColor = 'var(--secondary-color)';
-                
-                setTimeout(() => {
-                    button.textContent = originalText;
-                    button.disabled = false;
-                    button.style.backgroundColor = '';
-                    this.reset();
-                }, 2000);
-            }, 1000);
+            showNotification('Thanks! Newsletter coming soon — we\'ll notify you when it launches.', 'info');
+            setTimeout(() => { button.disabled = false; this.reset(); }, 2000);
         }
     });
 }
@@ -95,19 +81,10 @@ if (contactForm) {
             return;
         }
         
-        // Simulate form submission
         const button = this.querySelector('button');
-        const originalText = button.textContent;
-        
-        button.textContent = 'Sending...';
         button.disabled = true;
-        
-        setTimeout(() => {
-            showNotification('Message sent successfully! We\'ll get back to you soon.', 'success');
-            button.textContent = originalText;
-            button.disabled = false;
-            this.reset();
-        }, 1500);
+        showNotification('Contact form coming soon! For now, reach us via social media.', 'info');
+        setTimeout(() => { button.disabled = false; }, 2000);
     });
 }
 
@@ -466,7 +443,6 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!document.querySelector('.tip-page')) return;
   initReadingProgress();
   initBreadcrumbs();
-  initSocialProof();
   initTableOfContents();
   initAlsoRead();
   initRelatedTips();
@@ -512,22 +488,6 @@ function initBreadcrumbs() {
   if (tipPage) tipPage.parentNode.insertBefore(bc, tipPage);
 }
 
-function initSocialProof() {
-  var slug = getTipSlug();
-  var hash = 0;
-  for (var i = 0; i < slug.length; i++) {
-    hash = ((hash << 5) - hash) + slug.charCodeAt(i);
-    hash = hash | 0;
-  }
-  var count = 1200 + (Math.abs(hash) % 7300);
-  var formatted = count >= 1000 ? (count / 1000).toFixed(1) + 'k' : count;
-  var meta = document.querySelector('.tip-meta');
-  if (!meta) return;
-  var span = document.createElement('span');
-  span.className = 'readers';
-  span.innerHTML = '<i class="fas fa-users"></i> ' + formatted + ' readers';
-  meta.appendChild(span);
-}
 
 function initTableOfContents() {
   var headings = document.querySelectorAll('.tip-content h2');
