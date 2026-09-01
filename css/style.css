@@ -2597,10 +2597,16 @@ section { padding: var(--spacing-20) 0; }
   transition: all var(--transition-fast);
   white-space: nowrap;
 }
-.share-whatsapp { background: #25D366; color: #fff; }
-.share-whatsapp:hover { background: #1dba5b; transform: translateY(-2px); color: #fff; box-shadow: 0 4px 12px rgba(37,211,102,0.35); }
+.share-facebook { background: #1877F2; color: #fff; }
+.share-facebook:hover { background: #1464d4; transform: translateY(-2px); color: #fff; box-shadow: 0 4px 12px rgba(24,119,242,0.35); }
 .share-twitter { background: #000; color: #fff; }
 .share-twitter:hover { background: #222; transform: translateY(-2px); color: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+.share-pinterest { background: #E60023; color: #fff; }
+.share-pinterest:hover { background: #c0001d; transform: translateY(-2px); color: #fff; box-shadow: 0 4px 12px rgba(230,0,35,0.35); }
+.share-reddit { background: #FF4500; color: #fff; }
+.share-reddit:hover { background: #e03d00; transform: translateY(-2px); color: #fff; box-shadow: 0 4px 12px rgba(255,69,0,0.35); }
+.share-whatsapp { background: #25D366; color: #fff; }
+.share-whatsapp:hover { background: #1dba5b; transform: translateY(-2px); color: #fff; box-shadow: 0 4px 12px rgba(37,211,102,0.35); }
 .share-copy { background: var(--background-light); color: var(--text-primary); border: 1px solid var(--border-color); }
 .share-copy:hover { background: var(--primary-color); color: #fff; border-color: var(--primary-color); transform: translateY(-2px); }
 

@@ -579,8 +579,11 @@ function initSocialShare() {
   box.innerHTML =
     '<span class="share-label"><i class="fas fa-share-alt"></i> Share</span>' +
     '<div class="share-buttons">' +
+    '<a href="https://www.facebook.com/sharer/sharer.php?u=' + url + '" target="_blank" rel="noopener noreferrer" class="share-btn share-facebook"><i class="fab fa-facebook-f"></i> Facebook</a>' +
+    '<a href="https://twitter.com/intent/tweet?text=' + title + '&url=' + url + '" target="_blank" rel="noopener noreferrer" class="share-btn share-twitter"><i class="fab fa-x-twitter"></i> X</a>' +
+    '<a href="https://pinterest.com/pin/create/button/?url=' + url + '&description=' + title + '" target="_blank" rel="noopener noreferrer" class="share-btn share-pinterest"><i class="fab fa-pinterest-p"></i> Pinterest</a>' +
+    '<a href="https://www.reddit.com/submit?url=' + url + '&title=' + title + '" target="_blank" rel="noopener noreferrer" class="share-btn share-reddit"><i class="fab fa-reddit-alien"></i> Reddit</a>' +
     '<a href="https://wa.me/?text=' + title + '%20' + url + '" target="_blank" rel="noopener noreferrer" class="share-btn share-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>' +
-    '<a href="https://twitter.com/intent/tweet?text=' + title + '&url=' + url + '" target="_blank" rel="noopener noreferrer" class="share-btn share-twitter"><i class="fab fa-twitter"></i> X / Twitter</a>' +
     '<button class="share-btn share-copy" id="tip-copy-link"><i class="fas fa-link"></i> Copy Link</button>' +
     '</div>';
   var tipActions = document.querySelector('.tip-actions');
