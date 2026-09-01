@@ -468,6 +468,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initBreadcrumbs();
   initSocialProof();
   initTableOfContents();
+  initAlsoRead();
   initRelatedTips();
   initAuthorBio();
   initTipNewsletter();
@@ -709,4 +710,39 @@ function initSearch() {
     if (hamburger) nav.insertBefore(btn, hamburger);
     else nav.appendChild(btn);
   });
+}
+
+function initAlsoRead() {
+  var slug = getTipSlug();
+  var current = TIPS_DATA.find(function(t) { return t.slug === slug; });
+  if (!current) return;
+
+  var others = TIPS_DATA.filter(function(t) { return t.cat !== current.cat; });
+  if (others.length < 2) return;
+
+  var hash = 0;
+  for (var i = 0; i < slug.length; i++) {
+    hash = ((hash << 5) - hash) + slug.charCodeAt(i);
+    hash = hash | 0;
+  }
+  var idx = Math.abs(hash) % (others.length - 1);
+  var picks = [others[idx], others[(idx + Math.floor(others.length / 2)) % others.length]];
+
+  var cards = picks.map(function(t) {
+    return '<a href="../tips/' + t.slug + '.html" class="also-read-card">' +
+      '<span class="also-read-icon"><i class="fas ' + t.icon + '"></i></span>' +
+      '<span class="also-read-text">' + t.title + '</span>' +
+      '<span class="also-read-arrow"><i class="fas fa-arrow-right"></i></span>' +
+      '</a>';
+  }).join('');
+
+  var box = document.createElement('div');
+  box.className = 'also-read-box';
+  box.innerHTML = '<p class="also-read-label"><i class="fas fa-book-open"></i> Also Read</p>' + cards;
+
+  var tipContent = document.querySelector('.tip-content');
+  if (!tipContent) return;
+  var firstH2 = tipContent.querySelector('h2');
+  if (firstH2) firstH2.insertAdjacentElement('afterend', box);
+  else tipContent.prepend(box);
 }
