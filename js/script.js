@@ -469,8 +469,12 @@ document.addEventListener('DOMContentLoaded', function() {
   initSocialProof();
   initTableOfContents();
   initRelatedTips();
+  initAuthorBio();
+  initTipNewsletter();
   initSocialShare();
 });
+
+initSearch();
 
 function initReadingProgress() {
   var bar = document.createElement('div');
@@ -607,4 +611,102 @@ function fallbackCopy(text, callback) {
   try { document.execCommand('copy'); } catch(e) {}
   document.body.removeChild(ta);
   callback();
+}
+
+function initAuthorBio() {
+  var tipActions = document.querySelector('.tip-actions');
+  if (!tipActions) return;
+  var bio = document.createElement('div');
+  bio.className = 'author-bio';
+  bio.innerHTML =
+    '<div class="author-avatar"><i class="fas fa-pen-nib"></i></div>' +
+    '<div class="author-info">' +
+      '<h4>VibeAndThrive Editorial Team</h4>' +
+      '<p class="author-role">Wellness &amp; Lifestyle Writers</p>' +
+      '<p>Our team researches and writes practical, evidence-informed guides on wellness, productivity, home living, and more — helping you build a life that feels as good as it looks.</p>' +
+    '</div>';
+  tipActions.parentNode.insertBefore(bio, tipActions);
+}
+
+function initTipNewsletter() {
+  var tipActions = document.querySelector('.tip-actions');
+  if (!tipActions) return;
+  var nl = document.createElement('div');
+  nl.className = 'tip-newsletter';
+  nl.innerHTML =
+    '<h3><i class="fas fa-envelope"></i> Enjoyed this guide?</h3>' +
+    '<p>Get practical tips on wellness, productivity, and everyday living — delivered weekly.</p>' +
+    '<form class="newsletter-form">' +
+      '<input type="email" placeholder="Your email address" required>' +
+      '<button type="submit" class="btn btn-primary">Subscribe Free</button>' +
+    '</form>';
+  tipActions.parentNode.insertBefore(nl, tipActions);
+}
+
+function initSearch() {
+  var overlay = document.createElement('div');
+  overlay.className = 'search-overlay';
+  overlay.innerHTML =
+    '<div class="search-modal" role="dialog" aria-modal="true" aria-label="Search">' +
+      '<div class="search-input-wrap">' +
+        '<i class="fas fa-search"></i>' +
+        '<input type="search" id="site-search-input" placeholder="Search tips..." autocomplete="off" aria-label="Search tips">' +
+        '<button class="search-close-btn" aria-label="Close search"><i class="fas fa-times"></i></button>' +
+      '</div>' +
+      '<div class="search-results" id="search-results-list"></div>' +
+    '</div>';
+  document.body.appendChild(overlay);
+
+  var input = document.getElementById('site-search-input');
+  var resultsList = document.getElementById('search-results-list');
+
+  function renderResults(query) {
+    var q = query.trim().toLowerCase();
+    if (!q) { resultsList.innerHTML = ''; return; }
+    var matches = TIPS_DATA.filter(function(t) {
+      return t.title.toLowerCase().includes(q) || t.desc.toLowerCase().includes(q);
+    });
+    if (!matches.length) {
+      resultsList.innerHTML = '<p class="search-empty">No results for "<strong>' + query + '</strong>"</p>';
+      return;
+    }
+    var base = window.location.pathname.includes('/tips/') ? '../tips/' : 'tips/';
+    resultsList.innerHTML = matches.slice(0, 8).map(function(t) {
+      return '<a href="' + base + t.slug + '.html" class="search-result-item">' +
+        '<div class="search-result-icon"><i class="fas ' + t.icon + '"></i></div>' +
+        '<div class="search-result-text"><h4>' + t.title + '</h4><p>' + t.desc + '</p></div>' +
+        '</a>';
+    }).join('');
+  }
+
+  function openSearch() {
+    overlay.classList.add('open');
+    setTimeout(function() { input.focus(); }, 100);
+  }
+  function closeSearch() {
+    overlay.classList.remove('open');
+    input.value = '';
+    resultsList.innerHTML = '';
+  }
+
+  input.addEventListener('input', function() { renderResults(this.value); });
+  overlay.querySelector('.search-close-btn').addEventListener('click', closeSearch);
+  overlay.addEventListener('click', function(e) { if (e.target === overlay) closeSearch(); });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeSearch();
+    if ((e.ctrlKey || e.metaKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var nav = document.querySelector('.nav-container');
+    if (!nav) return;
+    var btn = document.createElement('button');
+    btn.className = 'search-trigger-btn';
+    btn.setAttribute('aria-label', 'Search');
+    btn.innerHTML = '<i class="fas fa-search"></i>';
+    btn.addEventListener('click', openSearch);
+    var hamburger = nav.querySelector('.hamburger');
+    if (hamburger) nav.insertBefore(btn, hamburger);
+    else nav.appendChild(btn);
+  });
 }
