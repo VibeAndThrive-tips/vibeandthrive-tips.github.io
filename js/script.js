@@ -449,9 +449,95 @@ document.addEventListener('DOMContentLoaded', function() {
   initAuthorBio();
   initTipNewsletter();
   initSocialShare();
+  injectSEOSchemas();
 });
 
 initSearch();
+
+function injectSEOSchemas() {
+  var slug = getTipSlug();
+  var tip = TIPS_DATA.find(function(t) { return t.slug === slug; });
+  if (!tip) return;
+  var cat = CAT_META[tip.cat];
+
+  var pageUrl = 'https://livewithvibe.com/tips/' + slug + '.html';
+  var ogImage = (document.querySelector('meta[property="og:image"]') || {}).content || '';
+  var headline = (document.querySelector('.tip-header h1') || {}).textContent || tip.title;
+  var description = (document.querySelector('meta[name="description"]') || {}).content || tip.desc;
+  var today = new Date().toISOString().slice(0, 10);
+
+  // Fix existing Article schema or inject a complete one
+  var existingScript = document.querySelector('script[type="application/ld+json"]');
+  var articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'headline': headline.trim(),
+    'description': description,
+    'url': pageUrl,
+    'datePublished': '2026-09-01',
+    'dateModified': today,
+    'wordCount': Math.round((document.querySelector('.tip-content') || {}).innerText.split(/\s+/).length || 800),
+    'author': {
+      '@type': 'Person',
+      'name': 'Hari Kishan',
+      'url': 'https://livewithvibe.com/about.html'
+    },
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'VibeAndThrive',
+      'url': 'https://livewithvibe.com',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': 'https://livewithvibe.com/favicon.svg',
+        'width': 60,
+        'height': 60
+      }
+    }
+  };
+  if (ogImage) {
+    articleSchema['image'] = { '@type': 'ImageObject', 'url': ogImage, 'width': 1000, 'height': 1500 };
+  }
+
+  var articleEl = document.createElement('script');
+  articleEl.type = 'application/ld+json';
+  articleEl.text = JSON.stringify(articleSchema);
+  document.head.appendChild(articleEl);
+
+  // BreadcrumbList schema
+  var breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://livewithvibe.com/' },
+      { '@type': 'ListItem', 'position': 2, 'name': cat.label, 'item': 'https://livewithvibe.com/' + cat.page.replace('../', '') },
+      { '@type': 'ListItem', 'position': 3, 'name': headline.trim(), 'item': pageUrl }
+    ]
+  };
+  var bcEl = document.createElement('script');
+  bcEl.type = 'application/ld+json';
+  bcEl.text = JSON.stringify(breadcrumbSchema);
+  document.head.appendChild(bcEl);
+
+  // FAQPage schema — reads FAQ sections from DOM
+  var faqItems = [];
+  document.querySelectorAll('.faq-item, .step-card').forEach(function(item) {
+    var q = item.querySelector('h3, .faq-question');
+    var a = item.querySelector('p, .faq-answer');
+    if (q && a && q.textContent.trim().length > 5 && a.textContent.trim().length > 10) {
+      faqItems.push({
+        '@type': 'Question',
+        'name': q.textContent.trim(),
+        'acceptedAnswer': { '@type': 'Answer', 'text': a.textContent.trim() }
+      });
+    }
+  });
+  if (faqItems.length >= 2) {
+    var faqEl = document.createElement('script');
+    faqEl.type = 'application/ld+json';
+    faqEl.text = JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': faqItems });
+    document.head.appendChild(faqEl);
+  }
+}
 
 function initReadingProgress() {
   var bar = document.createElement('div');
