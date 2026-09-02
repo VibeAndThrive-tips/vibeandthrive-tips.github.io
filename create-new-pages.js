@@ -11,6 +11,7 @@ function buildPage({ slug, title, description, category, categorySlug, categoryI
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-adsense-account" content="ca-pub-9688570468071988">
+    <meta name="author" content="Hari Kishan">
     <meta name="description" content="${description}">
     <meta property="og:type" content="article">
     <meta property="og:title" content="${title} | VibeAndThrive">
@@ -24,7 +25,13 @@ function buildPage({ slug, title, description, category, categorySlug, categoryI
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "name": "${title}",
+        "headline": "${title}",
+        "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=85&auto=format&fit=crop&h=630",
+        "author": {
+            "@type": "Person",
+            "name": "Hari Kishan",
+            "url": "${BASE_URL}/author.html"
+        },
         "description": "${description}",
         "url": "${url}",
         "publisher": {
@@ -85,7 +92,7 @@ function buildPage({ slug, title, description, category, categorySlug, categoryI
                 <div class="tip-meta">
                     <span class="category"><i class="fas ${categoryIcon}"></i> ${category}</span>
                     <span class="read-time"><i class="fas fa-clock"></i> ${readTime} min read</span>
-                    <span class="author"><i class="fas fa-user"></i> VibeAndThrive Team</span>
+                    <span class="author"><i class="fas fa-user"></i> <a href="../author.html">Hari Kishan</a></span>
                 </div>
             </div>
 

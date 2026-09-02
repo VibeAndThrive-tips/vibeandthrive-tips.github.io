@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE_URL = 'https://vibeandthrive-tips.github.io';
+const BASE_URL = 'https://livewithvibe.com';
 const ROOT = __dirname;
 
 const TITLE_IMPROVEMENTS = {
@@ -64,6 +64,57 @@ for (const fp of getAllHtmlFiles()) {
   let html = fs.readFileSync(fp, 'utf8');
   let changed = false;
   const rel = path.relative(ROOT, fp).replace(/\\/g, '/');
+
+  // Keep the static pages aligned with Google's consent and trust requirements.
+  const beforeEncodingFix = html;
+  html = html.replace(/â€”/g, '&mdash;').replace(/â€“/g, '&ndash;').replace(/â€˜|â€™/g, "'");
+  if (html !== beforeEncodingFix) changed = true;
+
+  if (!html.includes('gtag("consent", "default"') && html.includes('gtag("js", new Date());')) {
+    html = html.replace(
+      'gtag("js", new Date());',
+      'gtag("consent", "default", { ad_storage: "denied", analytics_storage: "denied", ad_user_data: "denied", ad_personalization: "denied", wait_for_update: 500 });\n  gtag("js", new Date());'
+    );
+    changed = true;
+  }
+
+  if (rel.startsWith('tips/')) {
+    if (!/<meta name="author"/i.test(html)) {
+      const authorMeta = '    <meta name="author" content="Hari Kishan">';
+      const descriptionMatch = html.match(/<meta\s+name="description"[^>]+>/i);
+      if (descriptionMatch) {
+        const pos = html.indexOf(descriptionMatch[0]) + descriptionMatch[0].length;
+        html = html.slice(0, pos) + '\n' + authorMeta + html.slice(pos);
+        changed = true;
+      }
+    }
+
+    const beforeAuthor = html;
+    html = html.replace(
+      /<span class="author"><i class="fas fa-user"><\/i>\s*VibeAndThrive Team<\/span>/g,
+      '<span class="author"><i class="fas fa-user"></i> <a href="../author.html">Hari Kishan</a></span>'
+    );
+    if (html !== beforeAuthor) changed = true;
+
+    if (!html.includes('../author.html')) {
+      const tipMetaEnd = html.indexOf('</div>', html.indexOf('class="tip-meta"'));
+      if (tipMetaEnd !== -1) {
+        html = html.slice(0, tipMetaEnd) + '                    <span class="author"><i class="fas fa-user"></i> <a href="../author.html">Hari Kishan</a></span>\n                ' + html.slice(tipMetaEnd);
+        changed = true;
+      }
+    }
+
+    const articleImage = extract(html, /<meta\s+property="og:image"\s+content="([^"]+)"/i);
+    const beforeSchema = html;
+    const articleSchemaMatch = html.match(/<script type="application\/ld\+json">([\s\S]*?"@type"\s*:\s*"Article"[\s\S]*?)<\/script>/i);
+    if (articleSchemaMatch && !articleSchemaMatch[1].includes('"author"')) {
+      html = html.replace(
+        /("@type"\s*:\s*"Article",\s*)(?:"name"|"headline")\s*:\s*"([^"]+)",/i,
+        `$1"headline": "$2",\n        "image": "${articleImage}",\n        "author": {\n            "@type": "Person",\n            "name": "Hari Kishan",\n            "url": "${BASE_URL}/author.html"\n        },`
+      );
+    }
+    if (html !== beforeSchema) changed = true;
+  }
 
   // 1. Fix logo H1 → H2 in 5 specific files
   if (H1_FIX_FILES.includes(rel)) {
