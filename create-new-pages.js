@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE_URL = 'https://vibeandthrive-tips.github.io';
+const BASE_URL = 'https://livewithvibe.com';
 
 function buildPage({ slug, title, description, category, categorySlug, categoryIcon, readTime, keywords, lead, sections, conclusion, categoryFile }) {
     const url = `${BASE_URL}/tips/${slug}.html`;
@@ -30,7 +30,7 @@ function buildPage({ slug, title, description, category, categorySlug, categoryI
         "publisher": {
             "@type": "Organization",
             "name": "VibeAndThrive",
-            "url": "https://vibeandthrive-tips.github.io"
+            "url": "https://livewithvibe.com"
         }
     }
     </script>
