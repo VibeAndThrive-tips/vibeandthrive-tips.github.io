@@ -2426,33 +2426,41 @@ section { padding: var(--spacing-20) 0; }
     font-weight: 700;
     color: var(--primary-color);
     margin-bottom: var(--spacing-3);
-    display: flex;
-    align-items: flex-start;
-    gap: var(--spacing-3);
     line-height: 1.4;
-}
-.step-card h3::before {
-    content: 'Q';
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 1.75rem;
-    height: 1.75rem;
-    background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);
-    color: #fff;
-    border-radius: var(--radius-md);
-    font-size: 0.7rem;
-    font-weight: 900;
-    flex-shrink: 0;
-    margin-top: 0.1em;
 }
 .step-card p {
     color: var(--text-secondary);
     line-height: 1.75;
     margin: 0;
-    padding-left: calc(1.75rem + var(--spacing-3));
     font-size: 0.9375rem;
 }
+
+/* ---- FAQ cards (tip-section uses step-card without step-number) ---- */
+.tip-section .step-card {
+    display: block;
+    padding: 1.75rem 2rem;
+    margin-bottom: 1.25rem;
+    border-left: none;
+    border-top: 3px solid var(--primary-color);
+    border-radius: 1rem;
+}
+.tip-section .step-card:hover {
+    border-top-color: #EC4899;
+}
+.tip-section .step-card h3 {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+.tip-section .step-card p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 0.75rem;
+    font-size: 0.9375rem;
+}
+.tip-section .step-card p:last-child { margin-bottom: 0; }
 
 /* ---- ACTIONS / CTA AREA ---- */
 .tip-actions {
