@@ -167,14 +167,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Dynamic year in footer
-document.addEventListener('DOMContentLoaded', () => {
-    const footerYear = document.querySelector('.footer-bottom p');
-    if (footerYear) {
-        const currentYear = new Date().getFullYear();
-        footerYear.textContent = footerYear.textContent.replace('2025', currentYear);
-    }
-});
 
 // Scroll to top functionality
 function createScrollToTopButton() {
