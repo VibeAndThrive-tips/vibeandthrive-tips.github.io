@@ -306,7 +306,7 @@ function initCookieConsent() {
         font-size: 14px;
     `;
     banner.innerHTML = `
-        <p style="margin:0;flex:1;min-width:240px;">We use cookies for analytics and advertising. In some regions these are off until you allow them. Read our <a href="/privacy.html" style="color:#a5b4fc;text-decoration:underline;">Privacy Policy</a>.</p>
+        <p style="margin:0;flex:1;min-width:240px;">We use cookies to improve your experience on our site. By continuing to browse, you agree to our use of cookies. Read our <a href="/privacy.html" style="color:#a5b4fc;text-decoration:underline;">Privacy Policy</a>.</p>
         <div style="display:flex;gap:8px;flex-wrap:wrap;">
             <button id="reject-cookies" style="background:transparent;color:#f9fafb;border:1px solid #9ca3af;padding:10px 18px;border-radius:6px;cursor:pointer;font-weight:600;">Reject</button>
             <button id="accept-cookies" style="background:#6366f1;color:#fff;border:none;padding:10px 24px;border-radius:6px;cursor:pointer;font-weight:600;">Accept</button>
