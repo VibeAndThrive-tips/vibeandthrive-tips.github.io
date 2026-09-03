@@ -65,17 +65,19 @@ for (const fp of getAllHtmlFiles()) {
   let changed = false;
   const rel = path.relative(ROOT, fp).replace(/\\/g, '/');
 
-  // Keep the static pages aligned with Google's consent and trust requirements.
+  // Keep the static pages aligned with Google's trust requirements.
   const beforeEncodingFix = html;
   html = html.replace(/â€”/g, '&mdash;').replace(/â€“/g, '&ndash;').replace(/â€˜|â€™/g, "'");
   if (html !== beforeEncodingFix) changed = true;
 
-  if (!html.includes('gtag("consent", "default"') && html.includes('gtag("js", new Date());')) {
-    html = html.replace(
-      'gtag("js", new Date());',
-      'gtag("consent", "default", { ad_storage: "denied", analytics_storage: "denied", ad_user_data: "denied", ad_personalization: "denied", wait_for_update: 500 });\n  gtag("js", new Date());'
-    );
-    changed = true;
+  // Consent Mode defaults apply ONLY to EEA/UK/Switzerland; all other regions stay ungated.
+  const consentRegions = '["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE","IS","LI","NO","GB","CH"]';
+  const consentLine = `  gtag("consent", "default", { ad_storage: "denied", analytics_storage: "denied", ad_user_data: "denied", ad_personalization: "denied", wait_for_update: 500, region: ${consentRegions} });`;
+  if (html.includes('gtag("js", new Date());')) {
+    const beforeConsent = html;
+    html = html.replace(/[ \t]*gtag\("consent", "default",[^\n]*\n/g, '');
+    html = html.replace('  gtag("js", new Date());', consentLine + '\n  gtag("js", new Date());');
+    if (html !== beforeConsent) changed = true;
   }
 
   if (rel.startsWith('tips/')) {

@@ -280,11 +280,11 @@ window.addEventListener('load', () => {
 
 // Cookie Consent Banner
 function initCookieConsent() {
-  const savedConsent = localStorage.getItem('cookieConsent');
-  if (savedConsent) {
-    updateGoogleConsent(savedConsent === 'accepted');
-    return;
-  }
+    const savedConsent = localStorage.getItem('cookieConsent');
+    if (savedConsent) {
+        updateGoogleConsent(savedConsent === 'accepted');
+        return;
+    }
 
     const banner = document.createElement('div');
     banner.id = 'cookie-consent';
@@ -306,33 +306,34 @@ function initCookieConsent() {
         font-size: 14px;
     `;
     banner.innerHTML = `
-        <p style="margin:0;flex:1;min-width:240px;">We use cookies for analytics and advertising. You can accept optional cookies or continue with them disabled. Read our <a href="/privacy.html" style="color:#a5b4fc;text-decoration:underline;">Privacy Policy</a>.</p>
+        <p style="margin:0;flex:1;min-width:240px;">We use cookies for analytics and advertising. In some regions these are off until you allow them. Read our <a href="/privacy.html" style="color:#a5b4fc;text-decoration:underline;">Privacy Policy</a>.</p>
         <div style="display:flex;gap:8px;flex-wrap:wrap;">
-          <button id="reject-cookies" style="background:transparent;color:#f9fafb;border:1px solid #9ca3af;padding:10px 18px;border-radius:6px;cursor:pointer;font-weight:600;">Reject optional</button>
-          <button id="accept-cookies" style="background:#6366f1;color:#fff;border:none;padding:10px 24px;border-radius:6px;cursor:pointer;font-weight:600;">Accept optional</button>
+            <button id="reject-cookies" style="background:transparent;color:#f9fafb;border:1px solid #9ca3af;padding:10px 18px;border-radius:6px;cursor:pointer;font-weight:600;">Reject</button>
+            <button id="accept-cookies" style="background:#6366f1;color:#fff;border:none;padding:10px 24px;border-radius:6px;cursor:pointer;font-weight:600;">Accept</button>
         </div>
     `;
     document.body.appendChild(banner);
 
-      const setConsent = accepted => {
+    const setConsent = accepted => {
         localStorage.setItem('cookieConsent', accepted ? 'accepted' : 'rejected');
         updateGoogleConsent(accepted);
         banner.remove();
-      };
+    };
 
-      document.getElementById('accept-cookies').addEventListener('click', () => setConsent(true));
-      document.getElementById('reject-cookies').addEventListener('click', () => setConsent(false));
-    }
+    document.getElementById('accept-cookies').addEventListener('click', () => setConsent(true));
+    document.getElementById('reject-cookies').addEventListener('click', () => setConsent(false));
+}
 
-    function updateGoogleConsent(accepted) {
-      if (typeof gtag !== 'function') return;
-      const consent = accepted ? 'granted' : 'denied';
-      gtag('consent', 'update', {
+// Updates Google Consent Mode; only affects EEA/UK/CH visitors, who start denied by default.
+function updateGoogleConsent(accepted) {
+    if (typeof gtag !== 'function') return;
+    const consent = accepted ? 'granted' : 'denied';
+    gtag('consent', 'update', {
         ad_storage: consent,
         analytics_storage: consent,
         ad_user_data: consent,
         ad_personalization: consent
-      });
+    });
 }
 document.addEventListener('DOMContentLoaded', initCookieConsent);
 
