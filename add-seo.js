@@ -91,6 +91,14 @@ for (const fp of getAllHtmlFiles()) {
       }
     }
 
+    // Remove any author byline mistakenly injected into the nav logo.
+    const beforeNavFix = html;
+    html = html.replace(
+      /(VibeAndThrive<\/a>)\s*<span class="author">[\s\S]*?<\/span>/g,
+      '$1'
+    );
+    if (html !== beforeNavFix) changed = true;
+
     const beforeAuthor = html;
     html = html.replace(
       /<span class="author"><i class="fas fa-user"><\/i>\s*VibeAndThrive Team<\/span>/g,
@@ -99,11 +107,47 @@ for (const fp of getAllHtmlFiles()) {
     if (html !== beforeAuthor) changed = true;
 
     if (!html.includes('../author.html')) {
-      const tipMetaEnd = html.indexOf('</div>', html.indexOf('class="tip-meta"'));
-      if (tipMetaEnd !== -1) {
-        html = html.slice(0, tipMetaEnd) + '                    <span class="author"><i class="fas fa-user"></i> <a href="../author.html">Hari Kishan</a></span>\n                ' + html.slice(tipMetaEnd);
+      const authorSpan = '<span class="author"><i class="fas fa-user"></i> <a href="../author.html">Hari Kishan</a></span>';
+      const metaPos = html.indexOf('class="tip-meta"');
+      if (metaPos !== -1) {
+        const tipMetaEnd = html.indexOf('</div>', metaPos);
+        if (tipMetaEnd !== -1) {
+          html = html.slice(0, tipMetaEnd) + '                    ' + authorSpan + '\n                ' + html.slice(tipMetaEnd);
+          changed = true;
+        }
+      } else if (/<p class="tip-subtitle">[\s\S]*?<\/p>/.test(html)) {
+        html = html.replace(
+          /(<p class="tip-subtitle">[\s\S]*?<\/p>)/,
+          `$1\n                <div class="tip-meta">\n                    ${authorSpan}\n                </div>`
+        );
+        changed = true;
+      } else {
+        html = html.replace(
+          /(<div class="tip-header">[\s\S]*?<\/h1>)/,
+          `$1\n                <div class="tip-meta">\n                    ${authorSpan}\n                </div>`
+        );
         changed = true;
       }
+    }
+
+    // Ensure a freshly-created tip-meta also carries category + read-time, not just the author.
+    const metaMatch = html.match(/<div class="tip-meta">([\s\S]*?)<\/div>/);
+    if (metaMatch
+        && !/class="(?:category|tip-category)"/.test(metaMatch[1])
+        && !/class="(?:read-time|tip-read-time)"/.test(metaMatch[1])
+        && /class="author"/.test(metaMatch[1])) {
+      const crumb = html.match(/<li><a href="\.\.\/categories\/[^"]+">([^<]+)<\/a><\/li>/);
+      const category = crumb ? crumb[1].trim() : '';
+      const words = (html.replace(/<[^>]+>/g, ' ').match(/\S+/g) || []).length;
+      const minutes = Math.max(3, Math.round(words / 200));
+      const badges =
+        (category ? `<span class="category"><i class="fas fa-tag"></i> ${category}</span>\n                    ` : '') +
+        `<span class="read-time"><i class="fas fa-clock"></i> ${minutes} min read</span>\n                    `;
+      html = html.replace(
+        /(<div class="tip-meta">\s*)(<span class="author">)/,
+        `$1${badges}$2`
+      );
+      changed = true;
     }
 
     const articleImage = extract(html, /<meta\s+property="og:image"\s+content="([^"]+)"/i);
