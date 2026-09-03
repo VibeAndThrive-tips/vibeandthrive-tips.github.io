@@ -1290,7 +1290,7 @@ section { padding: var(--spacing-20) 0; }
     background: var(--grad-primary);
     border-radius: 2px;
 }
-.timeline-item { position: relative; margin-bottom: var(--spacing-8); }
+.timeline-item { position: relative; margin-bottom: var(--spacing-8); padding-top: 2rem; }
 .timeline-marker {
     position: absolute;
     left: calc(-1 * var(--spacing-10) + 6px);
@@ -1305,7 +1305,7 @@ section { padding: var(--spacing-20) 0; }
 }
 .timeline-content {
     background: var(--background-light);
-    padding: var(--spacing-4) var(--spacing-5);
+    padding: var(--spacing-6) var(--spacing-6);
     border-radius: var(--radius-lg);
     border: 1px solid var(--border-color);
 }
