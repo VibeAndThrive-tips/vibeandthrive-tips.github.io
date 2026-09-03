@@ -2548,7 +2548,7 @@ section { padding: var(--spacing-20) 0; }
 .tip-breadcrumbs {
   background: #fff;
   border-bottom: 1px solid var(--border-color);
-  padding: var(--spacing-3) 0;
+  padding: var(--spacing-5) 0;
 }
 .breadcrumb-list {
   list-style: none;
