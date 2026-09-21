@@ -422,26 +422,6 @@ const TIPS_DATA = [
   { slug: 'solo-travel-tips',            cat: 'travel',        title: 'Solo Travel Tips',                        desc: 'Travel alone with confidence, safety, and total freedom.',           icon: 'fa-user' },
   { slug: 'travel-planning-guide',       cat: 'travel',        title: 'Travel Planning Guide',                   desc: 'Plan any trip step-by-step and avoid common travel mistakes.',        icon: 'fa-map' },
   { slug: 'budget-trip-india',           cat: 'travel',        title: 'Travel India on a Budget',                desc: 'Explore incredible India without overspending.',                      icon: 'fa-rupee-sign' },
-  // Wellness
-  { slug: 'morning-wellness',            cat: 'wellness',      title: 'Morning Wellness Routine',                desc: 'Start your day with intention and energy in just 10 minutes.',       icon: 'fa-sun' },
-  { slug: 'self-care-routines',          cat: 'wellness',      title: 'Self-Care Routines',                      desc: 'Quick self-care habits that fit any schedule and actually work.',    icon: 'fa-spa' },
-  { slug: 'journaling-benefits',         cat: 'wellness',      title: 'Journaling for Well-being',               desc: 'How daily journaling reduces stress and boosts mental clarity.',     icon: 'fa-book' },
-  { slug: 'stress-management-tips',      cat: 'wellness',      title: 'Stress Management Tips',                  desc: 'Practical techniques to manage stress and protect your well-being.', icon: 'fa-heartbeat' },
-  { slug: 'better-sleep-habits',         cat: 'wellness',      title: 'Better Sleep Habits',                     desc: 'Science-backed habits that improve sleep quality every night.',       icon: 'fa-moon' },
-  { slug: 'mindfulness-beginners',       cat: 'wellness',      title: 'Mindfulness for Beginners',               desc: 'Start a mindfulness practice in just 5 minutes a day.',              icon: 'fa-spa' },
-  { slug: 'healthy-eating-habits',       cat: 'wellness',      title: 'Healthy Eating Habits',                   desc: 'Simple daily choices that support long-term health and energy.',     icon: 'fa-apple-alt' },
-  // Relationships
-  { slug: 'relationship-building',       cat: 'relationships', title: 'Relationship Building',                   desc: 'Practical ways to build stronger, more meaningful connections.',      icon: 'fa-heart' },
-  { slug: 'social-connection',           cat: 'relationships', title: 'Social Connection',                       desc: 'Overcome loneliness and build a fulfilling social life.',             icon: 'fa-users' },
-  { slug: 'effective-communication',     cat: 'relationships', title: 'Effective Communication',                 desc: 'Speak and listen better to transform every relationship.',            icon: 'fa-comments' },
-  { slug: 'healthy-boundaries',          cat: 'relationships', title: 'Healthy Boundaries',                      desc: 'Set limits that protect your energy without guilt.',                  icon: 'fa-shield-alt' },
-  // Personal Growth
-  { slug: 'personal-growth',             cat: 'growth',        title: 'Personal Growth Tips',                    desc: 'Small daily habits that compound into lasting positive change.',      icon: 'fa-chart-line' },
-  { slug: 'creative-expression',         cat: 'growth',        title: 'Creative Hobbies for Adults',             desc: 'Rediscover creativity — no talent or experience required.',           icon: 'fa-paint-brush' },
-  { slug: 'building-confidence',         cat: 'growth',        title: 'Building Self-Confidence',                desc: 'Practical steps to develop real confidence that lasts.',              icon: 'fa-fist-raised' },
-  { slug: 'habit-stacking',              cat: 'growth',        title: 'Habit Stacking Guide',                    desc: 'Stack tiny habits to make big improvements on autopilot.',            icon: 'fa-layer-group' },
-  { slug: 'overcoming-procrastination',  cat: 'growth',        title: 'Overcoming Procrastination',              desc: 'Break the procrastination cycle with strategies that work.',          icon: 'fa-bolt' },
-  { slug: 'growth-mindset',              cat: 'growth',        title: 'Developing a Growth Mindset',             desc: 'Train your brain to see challenges as opportunities.',                icon: 'fa-brain' },
 ];
 
 const CAT_META = {
@@ -449,19 +429,10 @@ const CAT_META = {
   home:          { label: 'Home & Living',   page: '../categories/home-living.html',     icon: 'fa-home' },
   productivity:  { label: 'Productivity',    page: '../categories/productivity.html',    icon: 'fa-chart-line' },
   travel:        { label: 'Travel',          page: '../categories/travel.html',          icon: 'fa-plane' },
-  wellness:      { label: 'Wellness',        page: '../categories/wellness.html',        icon: 'fa-spa' },
-  relationships: { label: 'Relationships',   page: '../categories/relationships.html',   icon: 'fa-heart' },
-  growth:        { label: 'Personal Growth', page: '../categories/personal-growth.html', icon: 'fa-seedling' },
 };
 
 document.addEventListener('DOMContentLoaded', function() {
   if (!document.querySelector('.tip-page')) return;
-  initReadingProgress();
-  initBreadcrumbs();
-  initTableOfContents();
-  initAlsoRead();
-  initRelatedTips();
-  initAuthorBio();
   initTipNewsletter();
   initSocialShare();
   injectSEOSchemas();

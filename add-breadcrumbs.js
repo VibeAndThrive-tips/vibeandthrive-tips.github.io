@@ -3,13 +3,8 @@ const path = require('path');
 
 // Fallback for pages with no category markup
 const CATEGORY_FALLBACK = {
-    'effective-communication.html':  { category: 'Relationships',   href: '../categories/relationships.html' },
-    'healthy-boundaries.html':       { category: 'Wellness',        href: '../categories/wellness.html' },
     'home-organization.html':        { category: 'Home Living',     href: '../categories/home-living.html' },
-    'journaling-benefits.html':      { category: 'Wellness',        href: '../categories/wellness.html' },
     'mindful-productivity.html':     { category: 'Productivity',    href: '../categories/productivity.html' },
-    'morning-wellness.html':         { category: 'Wellness',        href: '../categories/wellness.html' },
-    'relationship-building.html':    { category: 'Relationships',   href: '../categories/relationships.html' },
     'work-life-balance.html':        { category: 'Productivity',    href: '../categories/productivity.html' },
 };
 
