@@ -6,16 +6,7 @@ const ROOT = __dirname;
 
 const TITLE_IMPROVEMENTS = {
   'tips/work-life-balance.html': 'Work-Life Balance: Set Healthy Boundaries and Prevent Burnout | VibeAndThrive',
-  'tips/mindful-spending.html': 'Mindful Spending: Stop Impulse Buying and Spend with Intention | VibeAndThrive',
-  'tips/gratitude-practice.html': 'Daily Gratitude Practice: Rewire Your Brain for Happiness | VibeAndThrive',
-  'tips/mental-wellbeing.html': 'Mental Well-being: Practical Strategies for a Healthier Mind | VibeAndThrive',
-  'tips/walking-fitness.html': 'Walking for Fitness: How Daily Walks Transform Your Health | VibeAndThrive',
   'tips/mindful-productivity.html': 'Mindful Productivity: Accomplish More While Stressing Less | VibeAndThrive',
-  'tips/smart-saving.html': 'Smart Saving Habits: How to Save Money Consistently Every Month | VibeAndThrive',
-  'tips/money-management.html': 'Smart Money Management: Take Control of Your Finances Today | VibeAndThrive',
-  'tips/home-fitness.html': 'Home Fitness Solutions: Effective Workouts Without a Gym | VibeAndThrive',
-  'tips/better-sleep.html': 'Better Sleep Quality: Proven Tips to Sleep Deeper and Wake Refreshed | VibeAndThrive',
-  'tips/positive-thinking.html': 'Power of Positive Thinking: Science-Backed Ways to Boost Happiness | VibeAndThrive',
 };
 
 const H1_FIX_FILES = [
