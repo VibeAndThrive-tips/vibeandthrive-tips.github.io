@@ -657,9 +657,9 @@ function initAuthorBio() {
   bio.innerHTML =
     '<div class="author-avatar"><i class="fas fa-pen-nib"></i></div>' +
     '<div class="author-info">' +
-      '<h4>VibeAndThrive Editorial Team</h4>' +
-      '<p class="author-role">Food, Home &amp; Productivity Editors</p>' +
-      '<p>Our team researches and writes practical guides on food, home living, productivity, and travel — helping you make everyday life more organised and enjoyable.</p>' +
+      '<h4>Hari Kishan</h4>' +
+      '<p class="author-role">Writer and editor at VibeAndThrive</p>' +
+      '<p>Hari writes and edits practical guides on food, home living, productivity, and travel. Articles are checked for clarity, practical detail, and unsupported promises before publication.</p>' +
     '</div>';
   tipActions.parentNode.insertBefore(bio, tipActions);
 }
