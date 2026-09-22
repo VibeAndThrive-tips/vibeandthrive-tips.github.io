@@ -1,6 +1,6 @@
 # VibeAndThrive Website
 
-A modern, elegant website focused on providing good living tips for wellness, productivity, and happiness. Designed with comprehensive content and user-friendly navigation.
+A modern, elegant website focused on practical food, home living, productivity, and travel guidance. Designed with useful content and user-friendly navigation.
 
 ## Website Features
 
@@ -10,10 +10,10 @@ A modern, elegant website focused on providing good living tips for wellness, pr
 - Consistent branding across all 15+ pages
 
 ### ✅ Clickable Categories
-- Wellness category with detailed tips
+- Food & Cooking category with recipes and kitchen guidance
 - Home & Living category for lifestyle improvements  
-- Nutrition category for healthy eating guidance
-- Productivity category for work-life balance
+- Productivity category for work-life balance and focused work
+- Travel category for practical trip planning
 
 ### ✅ Essential Pages
 - Homepage with hero section, about, featured tips, categories, newsletter signup, and contact
@@ -38,16 +38,12 @@ A modern, elegant website focused on providing good living tips for wellness, pr
 │   └── style.css          # Main stylesheet
 ├── js/
 │   └── script.js          # Interactive functionality
-├── tips/
-│   ├── morning-wellness.html
-│   ├── mindful-productivity.html
-│   ├── healthy-eating.html
-│   └── better-sleep.html
+├── tips/                    # 36 practical guides
 ├── categories/
-│   ├── wellness.html
+│   ├── food-cooking.html
 │   ├── home-living.html
-│   ├── nutrition.html
-│   └── productivity.html
+│   ├── productivity.html
+│   └── travel.html
 ├── privacy.html           # Privacy Policy
 ├── terms.html             # Terms of Service
 ├── sitemap.html           # HTML sitemap
@@ -76,4 +72,4 @@ The website is fully functional and ready for:
 - ✅ Social media integration
 - ✅ Analytics tracking
 
-All branding has been updated to "VibeAndThrive" while maintaining the focus on providing valuable good living tips to visitors.
+All branding has been updated to "VibeAndThrive" while maintaining the focus on valuable, practical everyday guidance.

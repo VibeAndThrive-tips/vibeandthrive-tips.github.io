@@ -658,8 +658,8 @@ function initAuthorBio() {
     '<div class="author-avatar"><i class="fas fa-pen-nib"></i></div>' +
     '<div class="author-info">' +
       '<h4>VibeAndThrive Editorial Team</h4>' +
-      '<p class="author-role">Wellness &amp; Lifestyle Writers</p>' +
-      '<p>Our team researches and writes practical, evidence-informed guides on wellness, productivity, home living, and more — helping you build a life that feels as good as it looks.</p>' +
+      '<p class="author-role">Food, Home &amp; Productivity Editors</p>' +
+      '<p>Our team researches and writes practical guides on food, home living, productivity, and travel — helping you make everyday life more organised and enjoyable.</p>' +
     '</div>';
   tipActions.parentNode.insertBefore(bio, tipActions);
 }
@@ -671,7 +671,7 @@ function initTipNewsletter() {
   nl.className = 'tip-newsletter';
   nl.innerHTML =
     '<h3><i class="fas fa-envelope"></i> Enjoyed this guide?</h3>' +
-    '<p>Get practical tips on wellness, productivity, and everyday living — delivered weekly.</p>' +
+    '<p>Get practical tips on food, home living, productivity, and travel — delivered weekly.</p>' +
     '<form class="newsletter-form">' +
       '<input type="email" placeholder="Your email address" required>' +
       '<button type="submit" class="btn btn-primary">Subscribe Free</button>' +
