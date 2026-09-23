@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="kzTitle kzDesc">
+  <title id="kzTitle">The five working zones of a kitchen</title>
+  <desc id="kzDesc">A kitchen plan divided into five zones: storage near the fridge and pantry, preparation beside the main counter, cooking at the hob and oven, washing at the sink, and daily items kept within arm's reach of where they are used.</desc>
+  <rect width="800" height="400" fill="#F8F7FF"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Store each item where the task actually happens</text>
+
+  <rect x="60" y="70" width="680" height="196" rx="16" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="3"/>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif">
+    <rect x="80" y="90" width="122" height="156" rx="12" fill="#7C3AED" opacity="0.12"/>
+    <text x="141" y="122" text-anchor="middle" font-size="14" font-weight="700" fill="#5B21B6">STORE</text>
+    <text x="141" y="150" text-anchor="middle" font-size="12" fill="#64748B">Fridge, pantry</text>
+    <text x="141" y="172" text-anchor="middle" font-size="12" fill="#64748B">Dry goods,</text>
+    <text x="141" y="190" text-anchor="middle" font-size="12" fill="#64748B">containers</text>
+
+    <rect x="212" y="90" width="122" height="156" rx="12" fill="#06B6D4" opacity="0.14"/>
+    <text x="273" y="122" text-anchor="middle" font-size="14" font-weight="700" fill="#0E7490">PREP</text>
+    <text x="273" y="150" text-anchor="middle" font-size="12" fill="#64748B">Main counter</text>
+    <text x="273" y="172" text-anchor="middle" font-size="12" fill="#64748B">Boards, knives,</text>
+    <text x="273" y="190" text-anchor="middle" font-size="12" fill="#64748B">mixing bowls</text>
+
+    <rect x="344" y="90" width="122" height="156" rx="12" fill="#F97316" opacity="0.16"/>
+    <text x="405" y="122" text-anchor="middle" font-size="14" font-weight="700" fill="#C2410C">COOK</text>
+    <text x="405" y="150" text-anchor="middle" font-size="12" fill="#64748B">Hob and oven</text>
+    <text x="405" y="172" text-anchor="middle" font-size="12" fill="#64748B">Pans, oils, spices,</text>
+    <text x="405" y="190" text-anchor="middle" font-size="12" fill="#64748B">ladles</text>
+
+    <rect x="476" y="90" width="122" height="156" rx="12" fill="#10B981" opacity="0.14"/>
+    <text x="537" y="122" text-anchor="middle" font-size="14" font-weight="700" fill="#047857">WASH</text>
+    <text x="537" y="150" text-anchor="middle" font-size="12" fill="#64748B">Sink area</text>
+    <text x="537" y="172" text-anchor="middle" font-size="12" fill="#64748B">Cleaning supplies,</text>
+    <text x="537" y="190" text-anchor="middle" font-size="12" fill="#64748B">drying rack</text>
+
+    <rect x="608" y="90" width="112" height="156" rx="12" fill="#EC4899" opacity="0.13"/>
+    <text x="664" y="122" text-anchor="middle" font-size="14" font-weight="700" fill="#BE185D">SERVE</text>
+    <text x="664" y="150" text-anchor="middle" font-size="12" fill="#64748B">Near the table</text>
+    <text x="664" y="172" text-anchor="middle" font-size="12" fill="#64748B">Plates, cutlery,</text>
+    <text x="664" y="190" text-anchor="middle" font-size="12" fill="#64748B">glasses</text>
+  </g>
+
+  <text x="400" y="306" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">When something is stored in the wrong zone, you pay for it on every single use.</text>
+  <text x="400" y="330" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Spices beside the hob and plates beside the table remove dozens of small journeys each week.</text>
+  <text x="400" y="368" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#5B21B6">Everyday items at arm height &#183; Rarely used items high or low</text>
+</svg>

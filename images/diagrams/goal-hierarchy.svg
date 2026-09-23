@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="ghTitle ghDesc">
+  <title id="ghTitle">The goal hierarchy from long-term direction to today's action</title>
+  <desc id="ghDesc">A pyramid breaking a long-term direction into a yearly goal, then quarterly milestones, then monthly projects, and finally weekly and daily actions, showing that only the bottom layer is something you can actually do today.</desc>
+  <rect width="800" height="400" fill="#F8F7FF"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">A goal only moves when it reaches the bottom row</text>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif">
+    <rect x="300" y="64" width="200" height="50" rx="10" fill="#5B21B6"/>
+    <text x="400" y="86" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">DIRECTION</text>
+    <text x="400" y="105" text-anchor="middle" font-size="12" fill="#DDD6FE">Why this matters to you</text>
+
+    <rect x="260" y="124" width="280" height="50" rx="10" fill="#7C3AED"/>
+    <text x="400" y="146" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">YEARLY GOAL</text>
+    <text x="400" y="165" text-anchor="middle" font-size="12" fill="#EDE9FE">Specific and measurable</text>
+
+    <rect x="212" y="184" width="376" height="50" rx="10" fill="#06B6D4"/>
+    <text x="400" y="206" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">QUARTERLY MILESTONES</text>
+    <text x="400" y="225" text-anchor="middle" font-size="12" fill="#ECFEFF">Evidence you are on track</text>
+
+    <rect x="160" y="244" width="480" height="50" rx="10" fill="#F97316"/>
+    <text x="400" y="266" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">MONTHLY PROJECTS</text>
+    <text x="400" y="285" text-anchor="middle" font-size="12" fill="#FFF7ED">Chunks with a clear finish</text>
+
+    <rect x="108" y="304" width="584" height="54" rx="10" fill="#10B981"/>
+    <text x="400" y="328" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">WEEKLY AND DAILY ACTIONS</text>
+    <text x="400" y="348" text-anchor="middle" font-size="12" fill="#ECFDF5">The only layer that appears in your calendar</text>
+  </g>
+
+  <text x="400" y="386" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#94A3B8">Goals that stall are usually stuck near the top, stated but never broken into something schedulable.</text>
+</svg>

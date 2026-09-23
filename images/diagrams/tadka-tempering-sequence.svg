@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="tdTitle tdDesc">
+  <title id="tdTitle">The order of a tadka, or tempering</title>
+  <desc id="tdDesc">A five step sequence for tempering: heat the fat until shimmering, add whole spices until they pop, add aromatics such as ginger garlic and curry leaves, add ground spices for a short burst off high heat, then pour the tempering over the dish or add the main ingredients.</desc>
+  <rect width="800" height="340" fill="#F8F7FF"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Tadka works because each stage needs a different heat</text>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif">
+    <!-- 1 -->
+    <circle cx="96" cy="150" r="34" fill="#7C3AED"/>
+    <text x="96" y="158" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="96" y="210" text-anchor="middle" font-size="14" font-weight="700" fill="#0F0A1E">Heat the fat</text>
+    <text x="96" y="232" text-anchor="middle" font-size="12" fill="#64748B">Oil or ghee until</text>
+    <text x="96" y="250" text-anchor="middle" font-size="12" fill="#64748B">it shimmers</text>
+
+    <!-- 2 -->
+    <circle cx="248" cy="150" r="34" fill="#7C3AED"/>
+    <text x="248" y="158" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="248" y="210" text-anchor="middle" font-size="14" font-weight="700" fill="#0F0A1E">Whole spices</text>
+    <text x="248" y="232" text-anchor="middle" font-size="12" fill="#64748B">Mustard, cumin,</text>
+    <text x="248" y="250" text-anchor="middle" font-size="12" fill="#64748B">until they pop</text>
+
+    <!-- 3 -->
+    <circle cx="400" cy="150" r="34" fill="#EC4899"/>
+    <text x="400" y="158" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="400" y="210" text-anchor="middle" font-size="14" font-weight="700" fill="#0F0A1E">Aromatics</text>
+    <text x="400" y="232" text-anchor="middle" font-size="12" fill="#64748B">Ginger, garlic, chilli,</text>
+    <text x="400" y="250" text-anchor="middle" font-size="12" fill="#64748B">curry leaves</text>
+
+    <!-- 4 -->
+    <circle cx="552" cy="150" r="34" fill="#F97316"/>
+    <text x="552" y="158" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="552" y="210" text-anchor="middle" font-size="14" font-weight="700" fill="#0F0A1E">Ground spices</text>
+    <text x="552" y="232" text-anchor="middle" font-size="12" fill="#64748B">Seconds only, off</text>
+    <text x="552" y="250" text-anchor="middle" font-size="12" fill="#64748B">high heat</text>
+
+    <!-- 5 -->
+    <circle cx="704" cy="150" r="34" fill="#10B981"/>
+    <text x="704" y="158" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">5</text>
+    <text x="704" y="210" text-anchor="middle" font-size="14" font-weight="700" fill="#0F0A1E">Combine</text>
+    <text x="704" y="232" text-anchor="middle" font-size="12" fill="#64748B">Pour over dal or add</text>
+    <text x="704" y="250" text-anchor="middle" font-size="12" fill="#64748B">the main ingredients</text>
+  </g>
+
+  <g stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M138 150 h60"/><path d="M190 142 l8 8 -8 8"/>
+    <path d="M290 150 h60"/><path d="M342 142 l8 8 -8 8"/>
+    <path d="M442 150 h60"/><path d="M494 142 l8 8 -8 8"/>
+    <path d="M594 150 h60"/><path d="M646 142 l8 8 -8 8"/>
+  </g>
+
+  <text x="400" y="300" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Ground spices burn in seconds at the heat whole spices need, which is why the order matters more than the quantity.</text>
+</svg>

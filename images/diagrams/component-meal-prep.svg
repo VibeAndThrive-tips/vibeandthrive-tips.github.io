@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="mpTitle mpDesc">
+  <title id="mpTitle">Component meal prep versus prepping complete meals</title>
+  <desc id="mpDesc">A grid showing that preparing separate components, three proteins, three bases and three vegetables, can be combined into many different meals, while prepping identical complete meals produces the same dish repeatedly.</desc>
+  <rect width="800" height="420" fill="#F8F7FF"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Prep components, not finished meals</text>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif">
+    <text x="160" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#5B21B6">PROTEIN</text>
+    <rect x="76" y="106" width="168" height="40" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+    <text x="160" y="132" text-anchor="middle" font-size="13" fill="#64748B">Chickpeas</text>
+    <rect x="76" y="154" width="168" height="40" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+    <text x="160" y="180" text-anchor="middle" font-size="13" fill="#64748B">Paneer</text>
+    <rect x="76" y="202" width="168" height="40" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+    <text x="160" y="228" text-anchor="middle" font-size="13" fill="#64748B">Eggs</text>
+
+    <text x="356" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#0E7490">BASE</text>
+    <rect x="272" y="106" width="168" height="40" rx="10" fill="#FFFFFF" stroke="#06B6D4" stroke-width="2"/>
+    <text x="356" y="132" text-anchor="middle" font-size="13" fill="#64748B">Rice</text>
+    <rect x="272" y="154" width="168" height="40" rx="10" fill="#FFFFFF" stroke="#06B6D4" stroke-width="2"/>
+    <text x="356" y="180" text-anchor="middle" font-size="13" fill="#64748B">Roti or wraps</text>
+    <rect x="272" y="202" width="168" height="40" rx="10" fill="#FFFFFF" stroke="#06B6D4" stroke-width="2"/>
+    <text x="356" y="228" text-anchor="middle" font-size="13" fill="#64748B">Salad leaves</text>
+
+    <text x="552" y="92" text-anchor="middle" font-size="15" font-weight="700" fill="#C2410C">VEGETABLES</text>
+    <rect x="468" y="106" width="168" height="40" rx="10" fill="#FFFFFF" stroke="#F97316" stroke-width="2"/>
+    <text x="552" y="132" text-anchor="middle" font-size="13" fill="#64748B">Roasted mixed veg</text>
+    <rect x="468" y="154" width="168" height="40" rx="10" fill="#FFFFFF" stroke="#F97316" stroke-width="2"/>
+    <text x="552" y="180" text-anchor="middle" font-size="13" fill="#64748B">Sauteed greens</text>
+    <rect x="468" y="202" width="168" height="40" rx="10" fill="#FFFFFF" stroke="#F97316" stroke-width="2"/>
+    <text x="552" y="228" text-anchor="middle" font-size="13" fill="#64748B">Raw crunch and herbs</text>
+  </g>
+
+  <g stroke="#CBD5E1" stroke-width="2" fill="none">
+    <path d="M244 174 h28"/><path d="M440 174 h28"/>
+  </g>
+
+  <rect x="660" y="140" width="112" height="68" rx="14" fill="#10B981"/>
+  <text x="716" y="172" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">27</text>
+  <text x="716" y="194" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#ECFDF5">combinations</text>
+  <path d="M636 174 h20" stroke="#CBD5E1" stroke-width="2"/>
+
+  <rect x="76" y="282" width="648" height="76" rx="14" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="3"/>
+  <text x="400" y="312" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Three choices in each column give twenty-seven possible plates from a single cooking session.</text>
+  <text x="400" y="338" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Prepping five identical containers instead gives you the same meal five times, which is why most beginners stop.</text>
+
+  <text x="400" y="396" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#94A3B8">Store components separately and assemble on the day for the best texture.</text>
+</svg>
