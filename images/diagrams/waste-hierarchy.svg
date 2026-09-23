@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="slTitle slDesc">
+  <title id="slTitle">The waste hierarchy, from most to least effective</title>
+  <desc id="slDesc">An inverted pyramid showing that refusing and reducing consumption has the greatest environmental effect, followed by reusing and repairing, then recycling, with disposal as the last resort.</desc>
+  <rect width="800" height="400" fill="#F8F7FF"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Recycling is near the bottom of what actually helps</text>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif">
+    <rect x="100" y="70" width="600" height="58" rx="10" fill="#047857"/>
+    <text x="130" y="97" font-size="16" font-weight="700" fill="#FFFFFF">REFUSE &amp; REDUCE</text>
+    <text x="130" y="117" font-size="13" fill="#D1FAE5">Not buying it avoids every downstream cost</text>
+    <text x="670" y="105" text-anchor="end" font-size="13" font-weight="700" fill="#D1FAE5">Most effect</text>
+
+    <rect x="160" y="138" width="480" height="58" rx="10" fill="#10B981"/>
+    <text x="190" y="165" font-size="16" font-weight="700" fill="#FFFFFF">REUSE &amp; REPAIR</text>
+    <text x="190" y="185" font-size="13" fill="#ECFDF5">Extends life without new material or energy</text>
+
+    <rect x="220" y="206" width="360" height="58" rx="10" fill="#06B6D4"/>
+    <text x="250" y="233" font-size="16" font-weight="700" fill="#FFFFFF">RECYCLE</text>
+    <text x="250" y="253" font-size="13" fill="#ECFEFF">Useful, but still uses energy to process</text>
+
+    <rect x="280" y="274" width="240" height="58" rx="10" fill="#94A3B8"/>
+    <text x="310" y="301" font-size="16" font-weight="700" fill="#FFFFFF">DISPOSE</text>
+    <text x="310" y="321" font-size="13" fill="#F1F5F9">The last resort</text>
+  </g>
+
+  <text x="400" y="368" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Most people start at the recycling bin, which is the narrowest part of the problem and the least within their control.</text>
+</svg>

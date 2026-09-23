@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="afiTitle afiDesc">
+  <title id="afiTitle">Which Indian dishes convert well to an air fryer</title>
+  <desc id="afiDesc">A spectrum showing that dry roasted snacks and tikka convert very well to an air fryer, samosas and cutlets convert well with light oil, wet batter pakoras need adaptation, and gravy dishes such as dal and sabzi do not suit an air fryer at all.</desc>
+  <rect width="800" height="380" fill="#F8F7FF"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Not every Indian dish suits dry circulating heat</text>
+
+  <rect x="60" y="72" width="170" height="150" rx="14" fill="#10B981" opacity="0.14"/>
+  <rect x="60" y="72" width="170" height="38" rx="14" fill="#10B981"/>
+  <text x="145" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">EXCELLENT</text>
+  <text x="145" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#0F0A1E">Makhana, chana,</text>
+  <text x="145" y="158" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#0F0A1E">peanuts, tikka</text>
+  <text x="145" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">Dry surfaces brown evenly</text>
+
+  <rect x="248" y="72" width="170" height="150" rx="14" fill="#06B6D4" opacity="0.14"/>
+  <rect x="248" y="72" width="170" height="38" rx="14" fill="#06B6D4"/>
+  <text x="333" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">WORKS WELL</text>
+  <text x="333" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#0F0A1E">Samosas, cutlets,</text>
+  <text x="333" y="158" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#0F0A1E">spring rolls</text>
+  <text x="333" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">Brush lightly with oil</text>
+
+  <rect x="436" y="72" width="170" height="150" rx="14" fill="#F97316" opacity="0.16"/>
+  <rect x="436" y="72" width="170" height="38" rx="14" fill="#F97316"/>
+  <text x="521" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">NEEDS ADAPTING</text>
+  <text x="521" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#0F0A1E">Pakoras and other</text>
+  <text x="521" y="158" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#0F0A1E">wet batters</text>
+  <text x="521" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">Thicken batter so it clings</text>
+
+  <rect x="624" y="72" width="116" height="150" rx="14" fill="#EC4899" opacity="0.13"/>
+  <rect x="624" y="72" width="116" height="38" rx="14" fill="#EC4899"/>
+  <text x="682" y="98" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">NOT SUITED</text>
+  <text x="682" y="138" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#0F0A1E">Dal, sabzi,</text>
+  <text x="682" y="158" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#0F0A1E">curries</text>
+  <text x="682" y="190" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">Need simmering liquid</text>
+
+  <path d="M60 254 h680" stroke="#CBD5E1" stroke-width="3"/>
+  <text x="60" y="284" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#047857">Drier the surface</text>
+  <text x="740" y="284" text-anchor="end" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#BE185D">Wetter the dish</text>
+
+  <text x="400" y="332" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">An air fryer dries and browns surfaces. The more moisture a dish depends on, the less it gains from one.</text>
+</svg>

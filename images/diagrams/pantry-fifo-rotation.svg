@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="fifoTitle fifoDesc">
+  <title id="fifoTitle">First in, first out pantry rotation</title>
+  <desc id="fifoDesc">A shelf diagram showing new stock being placed at the back so older stock moves forward and is used first, preventing items from expiring unnoticed at the rear of a cupboard.</desc>
+  <rect width="800" height="380" fill="#F8F7FF"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">New stock goes behind, never in front</text>
+
+  <rect x="120" y="78" width="560" height="170" rx="16" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="3"/>
+  <text x="152" y="106" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#94A3B8">BACK OF SHELF</text>
+  <text x="648" y="106" text-anchor="end" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#94A3B8">FRONT OF SHELF</text>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" font-weight="700">
+    <rect x="152" y="126" width="104" height="92" rx="10" fill="#7C3AED"/>
+    <text x="204" y="166" text-anchor="middle" fill="#FFFFFF">NEWEST</text>
+    <text x="204" y="188" text-anchor="middle" fill="#DDD6FE" font-weight="400">Just bought</text>
+
+    <rect x="272" y="126" width="104" height="92" rx="10" fill="#7C3AED" opacity="0.72"/>
+    <text x="324" y="176" text-anchor="middle" fill="#FFFFFF">NEWER</text>
+
+    <rect x="392" y="126" width="104" height="92" rx="10" fill="#06B6D4" opacity="0.8"/>
+    <text x="444" y="176" text-anchor="middle" fill="#FFFFFF">OLDER</text>
+
+    <rect x="512" y="126" width="136" height="92" rx="10" fill="#10B981"/>
+    <text x="580" y="166" text-anchor="middle" fill="#FFFFFF">USE THIS FIRST</text>
+    <text x="580" y="188" text-anchor="middle" fill="#ECFDF5" font-weight="400">Oldest stock</text>
+  </g>
+
+  <g stroke="#94A3B8" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M260 172 h8"/><path d="M380 172 h8"/><path d="M500 172 h8"/>
+  </g>
+
+  <path d="M170 286 h460" stroke="#7C3AED" stroke-width="3" stroke-linecap="round"/>
+  <path d="M618 276 l14 10 -14 10" fill="none" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="276" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#5B21B6">Stock moves forward as you cook</text>
+
+  <text x="400" y="330" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Most pantry waste is not carelessness. It is older packets pushed to the back and forgotten behind newer ones.</text>
+  <text x="400" y="362" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#047857">Takes ten seconds while unpacking the shopping</text>
+</svg>

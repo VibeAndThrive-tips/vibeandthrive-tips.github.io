@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="enTitle enDesc">
+  <title id="enTitle">Matching task type to your energy through the day</title>
+  <desc id="enDesc">A curve showing typical energy across a working day, with a morning peak suited to demanding work, an afternoon dip suited to routine tasks, and a smaller late afternoon recovery suited to planning and review.</desc>
+  <rect width="800" height="380" fill="#F8F7FF"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Hours are equal; your capacity within them is not</text>
+
+  <line x1="90" y1="270" x2="730" y2="270" stroke="#CBD5E1" stroke-width="3"/>
+  <line x1="90" y1="80" x2="90" y2="270" stroke="#CBD5E1" stroke-width="3"/>
+  <text x="56" y="96" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">High</text>
+  <text x="58" y="266" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">Low</text>
+
+  <path d="M90 190 C 150 104, 230 96, 300 120 C 370 146, 400 226, 470 232 C 530 238, 570 186, 620 176 C 670 168, 700 196, 730 226" fill="none" stroke="#7C3AED" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="140" y="292" width="180" height="58" rx="10" fill="#7C3AED"/>
+  <text x="230" y="316" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">MORNING PEAK</text>
+  <text x="230" y="336" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#DDD6FE">Demanding, focused work</text>
+
+  <rect x="336" y="292" width="180" height="58" rx="10" fill="#94A3B8"/>
+  <text x="426" y="316" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">AFTERNOON DIP</text>
+  <text x="426" y="336" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#F1F5F9">Email, admin, routine tasks</text>
+
+  <rect x="532" y="292" width="180" height="58" rx="10" fill="#10B981"/>
+  <text x="622" y="316" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">LATE RECOVERY</text>
+  <text x="622" y="336" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#ECFDF5">Planning, review, wrap-up</text>
+
+  <g stroke="#CBD5E1" stroke-width="2" stroke-dasharray="5 5">
+    <path d="M230 120 v150"/><path d="M426 232 v38"/><path d="M622 176 v94"/>
+  </g>
+
+  <text x="400" y="376" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">Illustrative pattern only. Track your own week &#8212; night owls and shift workers often peak at different times.</text>
+</svg>

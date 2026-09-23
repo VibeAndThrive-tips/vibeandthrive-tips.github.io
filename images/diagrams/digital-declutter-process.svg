@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="dmTitle dmDesc">
+  <title id="dmTitle">The digital declutter process</title>
+  <desc id="dmDesc">A three phase process: remove optional digital tools for a set period, use the gap to rebuild offline activities, then reintroduce only the tools that earn their place, each with a defined rule for how it will be used.</desc>
+  <rect width="800" height="360" fill="#F8F7FF"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Reintroduction is the part that matters</text>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif">
+    <rect x="52" y="80" width="212" height="160" rx="16" fill="#FFFFFF" stroke="#EC4899" stroke-width="3"/>
+    <rect x="52" y="80" width="212" height="44" rx="16" fill="#EC4899"/>
+    <text x="158" y="108" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">1 &#183; REMOVE</text>
+    <text x="158" y="152" text-anchor="middle" font-size="13" fill="#0F0A1E">Step back from optional</text>
+    <text x="158" y="172" text-anchor="middle" font-size="13" fill="#0F0A1E">apps and feeds</text>
+    <text x="158" y="202" text-anchor="middle" font-size="12" fill="#64748B">Keep what work and family</text>
+    <text x="158" y="220" text-anchor="middle" font-size="12" fill="#64748B">genuinely require</text>
+
+    <rect x="294" y="80" width="212" height="160" rx="16" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+    <rect x="294" y="80" width="212" height="44" rx="16" fill="#7C3AED"/>
+    <text x="400" y="108" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">2 &#183; REBUILD</text>
+    <text x="400" y="152" text-anchor="middle" font-size="13" fill="#0F0A1E">Fill the gap deliberately</text>
+    <text x="400" y="172" text-anchor="middle" font-size="13" fill="#0F0A1E">with offline activity</text>
+    <text x="400" y="202" text-anchor="middle" font-size="12" fill="#64748B">Without a replacement,</text>
+    <text x="400" y="220" text-anchor="middle" font-size="12" fill="#64748B">old habits return quickly</text>
+
+    <rect x="536" y="80" width="212" height="160" rx="16" fill="#FFFFFF" stroke="#10B981" stroke-width="3"/>
+    <rect x="536" y="80" width="212" height="44" rx="16" fill="#10B981"/>
+    <text x="642" y="108" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">3 &#183; REINTRODUCE</text>
+    <text x="642" y="152" text-anchor="middle" font-size="13" fill="#0F0A1E">Add back only what</text>
+    <text x="642" y="172" text-anchor="middle" font-size="13" fill="#0F0A1E">earns its place</text>
+    <text x="642" y="202" text-anchor="middle" font-size="12" fill="#64748B">Each with a rule: when,</text>
+    <text x="642" y="220" text-anchor="middle" font-size="12" fill="#64748B">how long, and what for</text>
+  </g>
+
+  <g stroke="#CBD5E1" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M268 160 h22"/><path d="M282 152 l8 8 -8 8"/>
+    <path d="M510 160 h22"/><path d="M524 152 l8 8 -8 8"/>
+  </g>
+
+  <text x="400" y="288" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Stopping at step one is a detox, and detoxes rebound. The decluttering only holds if step three has rules.</text>
+  <text x="400" y="328" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#5B21B6">The goal is deliberate use, not permanent removal</text>
+</svg>

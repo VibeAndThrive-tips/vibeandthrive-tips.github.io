@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="dtTitle dtDesc">
+  <title id="dtTitle">Deciding whether to do it yourself or hire a professional</title>
+  <desc id="dtDesc">A decision path for home projects: if the work involves structure, gas or major electrical systems, hire a qualified professional; otherwise weigh whether mistakes are reversible, whether you have the tools, and whether the job is safe at height before deciding to do it yourself.</desc>
+  <rect width="800" height="380" fill="#F8F7FF"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Where the line sits between DIY and a professional</text>
+
+  <rect x="260" y="62" width="280" height="50" rx="12" fill="#7C3AED"/>
+  <text x="400" y="93" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Does it involve structure, gas</text>
+  <text x="400" y="76" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#DDD6FE">Start here</text>
+
+  <text x="400" y="132" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#0F0A1E">or major electrical work?</text>
+
+  <path d="M330 140 L210 176" stroke="#EC4899" stroke-width="3" fill="none"/>
+  <path d="M470 140 L590 176" stroke="#10B981" stroke-width="3" fill="none"/>
+  <text x="258" y="158" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#BE185D">YES</text>
+  <text x="522" y="158" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#047857">NO</text>
+
+  <rect x="70" y="182" width="280" height="118" rx="14" fill="#FFFFFF" stroke="#EC4899" stroke-width="3"/>
+  <text x="210" y="212" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#BE185D">HIRE A PROFESSIONAL</text>
+  <text x="210" y="242" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#64748B">Load-bearing walls, gas lines,</text>
+  <text x="210" y="262" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#64748B">consumer units, roofing</text>
+  <text x="210" y="286" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">Safety and insurance both depend on it</text>
+
+  <rect x="450" y="182" width="280" height="118" rx="14" fill="#FFFFFF" stroke="#10B981" stroke-width="3"/>
+  <text x="590" y="208" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#047857">THEN ASK</text>
+  <text x="590" y="234" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#64748B">Is a mistake reversible?</text>
+  <text x="590" y="256" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#64748B">Do I have the right tools?</text>
+  <text x="590" y="278" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#64748B">Can I do it safely at this height?</text>
+
+  <text x="400" y="336" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Three clear yes answers usually means a good first project. Any hesitation is worth a quote before starting.</text>
+  <text x="400" y="366" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">Rules on who may carry out electrical and gas work differ by country, so check local regulations.</text>
+</svg>

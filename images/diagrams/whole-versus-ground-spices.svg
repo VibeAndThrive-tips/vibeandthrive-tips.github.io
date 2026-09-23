@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="wgTitle wgDesc">
+  <title id="wgTitle">Whole spices compared with ground spices over time</title>
+  <desc id="wgDesc">A chart showing that whole spices retain their aroma for far longer than pre-ground spices, which lose potency quickly after grinding because more surface area is exposed to air.</desc>
+  <rect width="800" height="380" fill="#F8F7FF"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Grinding starts the clock on aroma</text>
+
+  <line x1="110" y1="280" x2="720" y2="280" stroke="#CBD5E1" stroke-width="3"/>
+  <line x1="110" y1="80" x2="110" y2="280" stroke="#CBD5E1" stroke-width="3"/>
+  <text x="70" y="96" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">High</text>
+  <text x="66" y="276" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">Low</text>
+  <text x="46" y="188" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#64748B" transform="rotate(-90 46 188)">Aroma</text>
+
+  <path d="M110 100 C 260 112, 420 132, 720 176" fill="none" stroke="#10B981" stroke-width="5" stroke-linecap="round"/>
+  <path d="M110 100 C 200 168, 320 226, 720 262" fill="none" stroke="#EC4899" stroke-width="5" stroke-linecap="round"/>
+
+  <circle cx="110" cy="100" r="7" fill="#7C3AED"/>
+  <text x="120" y="80" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#5B21B6">Freshly ground</text>
+
+  <text x="728" y="176" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#047857" text-anchor="end" dy="-14">Whole spices</text>
+  <text x="728" y="262" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#BE185D" text-anchor="end" dy="26">Pre-ground spices</text>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">
+    <text x="110" y="302" text-anchor="middle">Purchase</text>
+    <text x="312" y="302" text-anchor="middle">Months pass</text>
+    <text x="520" y="302" text-anchor="middle">Half a year</text>
+    <text x="712" y="302" text-anchor="middle">A year on</text>
+  </g>
+
+  <text x="400" y="340" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Ground spices expose far more surface area to air, so their volatile oils escape much faster.</text>
+  <text x="400" y="366" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#5B21B6">Buy whole where you can &#183; Grind small amounts as needed</text>
+</svg>

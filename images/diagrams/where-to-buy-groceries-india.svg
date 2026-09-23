@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="ggTitle ggDesc">
+  <title id="ggTitle">Where to buy which groceries in India</title>
+  <desc id="ggDesc">A comparison of four grocery sources in India: the local mandi or vegetable market for fresh produce, the neighbourhood kirana for staples and refills, supermarkets for packaged goods and offers, and online platforms for bulk and heavy items.</desc>
+  <rect width="800" height="400" fill="#F8F7FF"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">One shop rarely wins on everything</text>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif">
+    <rect x="48" y="72" width="172" height="210" rx="14" fill="#FFFFFF" stroke="#10B981" stroke-width="3"/>
+    <rect x="48" y="72" width="172" height="44" rx="14" fill="#10B981"/>
+    <text x="134" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">MANDI</text>
+    <text x="134" y="142" text-anchor="middle" font-size="13" font-weight="700" fill="#0F0A1E">Best for</text>
+    <text x="134" y="164" text-anchor="middle" font-size="12" fill="#64748B">Seasonal vegetables</text>
+    <text x="134" y="184" text-anchor="middle" font-size="12" fill="#64748B">and fruit</text>
+    <text x="134" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#047857">Cheapest fresh produce</text>
+    <text x="134" y="244" text-anchor="middle" font-size="12" fill="#94A3B8">Go early, buy what</text>
+    <text x="134" y="262" text-anchor="middle" font-size="12" fill="#94A3B8">is in season</text>
+
+    <rect x="238" y="72" width="172" height="210" rx="14" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+    <rect x="238" y="72" width="172" height="44" rx="14" fill="#7C3AED"/>
+    <text x="324" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">KIRANA</text>
+    <text x="324" y="142" text-anchor="middle" font-size="13" font-weight="700" fill="#0F0A1E">Best for</text>
+    <text x="324" y="164" text-anchor="middle" font-size="12" fill="#64748B">Small refills, dals,</text>
+    <text x="324" y="184" text-anchor="middle" font-size="12" fill="#64748B">loose staples</text>
+    <text x="324" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#5B21B6">Buy exact quantities</text>
+    <text x="324" y="244" text-anchor="middle" font-size="12" fill="#94A3B8">No minimum order</text>
+    <text x="324" y="262" text-anchor="middle" font-size="12" fill="#94A3B8">or delivery wait</text>
+
+    <rect x="428" y="72" width="172" height="210" rx="14" fill="#FFFFFF" stroke="#06B6D4" stroke-width="3"/>
+    <rect x="428" y="72" width="172" height="44" rx="14" fill="#06B6D4"/>
+    <text x="514" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">SUPERMARKET</text>
+    <text x="514" y="142" text-anchor="middle" font-size="13" font-weight="700" fill="#0F0A1E">Best for</text>
+    <text x="514" y="164" text-anchor="middle" font-size="12" fill="#64748B">Packaged goods and</text>
+    <text x="514" y="184" text-anchor="middle" font-size="12" fill="#64748B">multi-buy offers</text>
+    <text x="514" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#0E7490">Compare unit price</text>
+    <text x="514" y="244" text-anchor="middle" font-size="12" fill="#94A3B8">Offers only save money</text>
+    <text x="514" y="262" text-anchor="middle" font-size="12" fill="#94A3B8">on what you use</text>
+
+    <rect x="618" y="72" width="134" height="210" rx="14" fill="#FFFFFF" stroke="#F97316" stroke-width="3"/>
+    <rect x="618" y="72" width="134" height="44" rx="14" fill="#F97316"/>
+    <text x="685" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">ONLINE</text>
+    <text x="685" y="142" text-anchor="middle" font-size="13" font-weight="700" fill="#0F0A1E">Best for</text>
+    <text x="685" y="164" text-anchor="middle" font-size="12" fill="#64748B">Bulk staples,</text>
+    <text x="685" y="184" text-anchor="middle" font-size="12" fill="#64748B">heavy items</text>
+    <text x="685" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#C2410C">Check per-kg price</text>
+    <text x="685" y="244" text-anchor="middle" font-size="12" fill="#94A3B8">Watch delivery fees</text>
+  </g>
+
+  <text x="400" y="330" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Splitting a shopping list across two sources usually beats loyalty to a single shop.</text>
+  <text x="400" y="368" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#94A3B8">Compare the unit price rather than the pack price, since pack sizes differ between these sources.</text>
+</svg>

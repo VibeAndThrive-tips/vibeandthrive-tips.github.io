@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="cpTitle cpDesc">
+  <title id="cpTitle">Warm and cool colours and the rooms they suit</title>
+  <desc id="cpDesc">A spectrum from warm colours such as red, orange and yellow, which feel stimulating and social, through neutrals, to cool colours such as green, blue and violet, which feel calming and restful, with the room types each group tends to suit.</desc>
+  <rect width="800" height="400" fill="#F8F7FF"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Match the temperature of a colour to the job of the room</text>
+
+  <defs>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="18%" stop-color="#F97316"/>
+      <stop offset="34%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#E7E5E4"/>
+      <stop offset="66%" stop-color="#10B981"/>
+      <stop offset="84%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect x="70" y="80" width="660" height="52" rx="12" fill="url(#spectrum)"/>
+
+  <text x="140" y="164" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#B91C1C">WARM</text>
+  <text x="400" y="164" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#57534E">NEUTRAL</text>
+  <text x="664" y="164" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#5B21B6">COOL</text>
+
+  <rect x="70" y="184" width="200" height="130" rx="14" fill="#FFFFFF" stroke="#F97316" stroke-width="3"/>
+  <text x="170" y="212" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#C2410C">Feels active and social</text>
+  <text x="170" y="242" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">Dining rooms, kitchens,</text>
+  <text x="170" y="262" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">entryways, social spaces</text>
+  <text x="170" y="292" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">Can feel intense in large areas</text>
+
+  <rect x="300" y="184" width="200" height="130" rx="14" fill="#FFFFFF" stroke="#94A3B8" stroke-width="3"/>
+  <text x="400" y="212" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#57534E">Feels steady and flexible</text>
+  <text x="400" y="242" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">Walls, large furniture,</text>
+  <text x="400" y="262" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">anything hard to change</text>
+  <text x="400" y="292" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">Lets accents do the work</text>
+
+  <rect x="530" y="184" width="200" height="130" rx="14" fill="#FFFFFF" stroke="#06B6D4" stroke-width="3"/>
+  <text x="630" y="212" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#0E7490">Feels calm and restful</text>
+  <text x="630" y="242" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">Bedrooms, bathrooms,</text>
+  <text x="630" y="262" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">reading corners, studies</text>
+  <text x="630" y="292" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">Can feel cold without warm light</text>
+
+  <text x="400" y="352" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">These are tendencies, not rules. Natural light, bulb colour and personal association all change how a colour reads.</text>
+  <text x="400" y="380" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#94A3B8">Cultural meaning varies widely, so test large samples in your own room before committing.</text>
+</svg>

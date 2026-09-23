@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="soTitle soDesc">
+  <title id="soTitle">Making the first day of a solo trip deliberately easy</title>
+  <desc id="soDesc">A first-day plan for solo travel: arrive in daylight, use pre-arranged transport from the airport or station, check into accommodation booked in advance, walk a short local loop to orient yourself, and eat somewhere nearby before an early night.</desc>
+  <rect width="800" height="360" fill="#F8F7FF"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Front-load the decisions before you are tired</text>
+
+  <line x1="86" y1="150" x2="714" y2="150" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round"/>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif">
+    <circle cx="140" cy="150" r="26" fill="#7C3AED"/><text x="140" y="157" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="140" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#0F0A1E">Arrive in daylight</text>
+    <text x="140" y="196" text-anchor="middle" font-size="11" fill="#64748B">Easier to orient and</text>
+    <text x="140" y="212" text-anchor="middle" font-size="11" fill="#64748B">safer on arrival</text>
+
+    <circle cx="283" cy="150" r="26" fill="#06B6D4"/><text x="283" y="157" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="283" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#0F0A1E">Pre-arrange transfer</text>
+    <text x="283" y="196" text-anchor="middle" font-size="11" fill="#64748B">Removes negotiating</text>
+    <text x="283" y="212" text-anchor="middle" font-size="11" fill="#64748B">while jet-lagged</text>
+
+    <circle cx="426" cy="150" r="26" fill="#F97316"/><text x="426" y="157" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="426" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#0F0A1E">Check in</text>
+    <text x="426" y="196" text-anchor="middle" font-size="11" fill="#64748B">Booked in advance,</text>
+    <text x="426" y="212" text-anchor="middle" font-size="11" fill="#64748B">central if possible</text>
+
+    <circle cx="569" cy="150" r="26" fill="#EC4899"/><text x="569" y="157" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="569" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#0F0A1E">Walk a short loop</text>
+    <text x="569" y="196" text-anchor="middle" font-size="11" fill="#64748B">Learn the streets</text>
+    <text x="569" y="212" text-anchor="middle" font-size="11" fill="#64748B">nearest to your base</text>
+
+    <circle cx="700" cy="150" r="26" fill="#10B981"/><text x="700" y="157" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">5</text>
+    <text x="700" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#0F0A1E">Eat nearby, sleep</text>
+    <text x="700" y="196" text-anchor="middle" font-size="11" fill="#64748B">Save the ambitious</text>
+    <text x="700" y="212" text-anchor="middle" font-size="11" fill="#64748B">plans for day two</text>
+  </g>
+
+  <text x="400" y="268" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Most first-day solo travel stress comes from making unfamiliar decisions while exhausted.</text>
+  <text x="400" y="310" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#5B21B6">Share your arrival details and accommodation with someone at home</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="mfTitle mfDesc">
+  <title id="mfTitle">Where a travel budget usually goes and how much control you have</title>
+  <desc id="mfDesc">Four travel cost categories compared by how much control a traveller has over each: transport is largely fixed once booked, accommodation is highly controllable, food is controllable daily, and activities are the most flexible of all.</desc>
+  <rect width="800" height="380" fill="#F8F7FF"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Spend your effort where you still have control</text>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif">
+    <text x="176" y="92" text-anchor="end" font-size="14" font-weight="700" fill="#0F0A1E">Transport</text>
+    <rect x="192" y="74" width="120" height="26" rx="6" fill="#94A3B8"/>
+    <text x="324" y="92" font-size="12" fill="#64748B">Fixed once booked &#8212; decide well, then move on</text>
+
+    <text x="176" y="152" text-anchor="end" font-size="14" font-weight="700" fill="#0F0A1E">Accommodation</text>
+    <rect x="192" y="134" width="300" height="26" rx="6" fill="#06B6D4"/>
+    <text x="504" y="152" font-size="12" fill="#64748B">Large range at every destination</text>
+
+    <text x="176" y="212" text-anchor="end" font-size="14" font-weight="700" fill="#0F0A1E">Food</text>
+    <rect x="192" y="194" width="380" height="26" rx="6" fill="#7C3AED"/>
+    <text x="584" y="212" font-size="12" fill="#64748B">Decided fresh two or three times a day</text>
+
+    <text x="176" y="272" text-anchor="end" font-size="14" font-weight="700" fill="#0F0A1E">Activities</text>
+    <rect x="192" y="254" width="440" height="26" rx="6" fill="#10B981"/>
+    <text x="644" y="272" font-size="12" fill="#64748B">Often free if you look</text>
+  </g>
+
+  <path d="M192 304 h440" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="192" y="326" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#64748B">Less control</text>
+  <text x="632" y="326" text-anchor="end" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#047857">More control</text>
+
+  <text x="400" y="364" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#94A3B8">Bar length shows how much influence you retain, not how much each category costs.</text>
+</svg>

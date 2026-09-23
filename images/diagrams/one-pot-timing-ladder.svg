@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="opTitle opDesc">
+  <title id="opTitle">Ingredient timing ladder for one-pot cooking</title>
+  <desc id="opDesc">A staged ladder showing the order ingredients enter a one-pot dish: aromatics first, then hard vegetables and spices, then the starch and liquid, then quick-cooking protein and soft vegetables, and finally fresh herbs and acid off the heat.</desc>
+  <rect width="800" height="360" fill="#F8F7FF"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">One pot still needs an order of entry</text>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif">
+    <rect x="70" y="66" width="660" height="42" rx="10" fill="#7C3AED"/>
+    <text x="92" y="93" font-size="14" font-weight="700" fill="#FFFFFF">1 &#183; Aromatics</text>
+    <text x="712" y="93" text-anchor="end" font-size="13" fill="#EDE9FE">Onion, ginger, garlic &#8212; build the base</text>
+
+    <rect x="70" y="118" width="660" height="42" rx="10" fill="#6D28D9"/>
+    <text x="92" y="145" font-size="14" font-weight="700" fill="#FFFFFF">2 &#183; Spices and hard vegetables</text>
+    <text x="712" y="145" text-anchor="end" font-size="13" fill="#EDE9FE">Carrot, potato &#8212; need the longest time</text>
+
+    <rect x="70" y="170" width="660" height="42" rx="10" fill="#06B6D4"/>
+    <text x="92" y="197" font-size="14" font-weight="700" fill="#FFFFFF">3 &#183; Starch and liquid</text>
+    <text x="712" y="197" text-anchor="end" font-size="13" fill="#ECFEFF">Rice or pasta cooks in the sauce, releasing starch</text>
+
+    <rect x="70" y="222" width="660" height="42" rx="10" fill="#F97316"/>
+    <text x="92" y="249" font-size="14" font-weight="700" fill="#FFFFFF">4 &#183; Quick protein and soft vegetables</text>
+    <text x="712" y="249" text-anchor="end" font-size="13" fill="#FFF7ED">Prawns, peas, spinach &#8212; minutes only</text>
+
+    <rect x="70" y="274" width="660" height="42" rx="10" fill="#10B981"/>
+    <text x="92" y="301" font-size="14" font-weight="700" fill="#FFFFFF">5 &#183; Off the heat</text>
+    <text x="712" y="301" text-anchor="end" font-size="13" fill="#ECFDF5">Herbs, lemon, yoghurt &#8212; keep them bright</text>
+  </g>
+
+  <text x="400" y="344" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#94A3B8">Everything entering at once is the main reason one-pot dishes end up with mushy vegetables and undercooked starch.</text>
+</svg>

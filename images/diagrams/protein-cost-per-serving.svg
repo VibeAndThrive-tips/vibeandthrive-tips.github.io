@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="cbTitle cbDesc">
+  <title id="cbTitle">Relative cost per serving of common protein sources</title>
+  <desc id="cbDesc">A relative scale showing that dried lentils and beans are usually the cheapest protein per serving, followed by eggs, then tofu and paneer, then chicken, with red meat and fish typically the most expensive.</desc>
+  <rect width="800" height="400" fill="#F8F7FF"/>
+  <text x="400" y="38" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Protein is usually the most expensive part of a meal</text>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14">
+    <text x="196" y="94" text-anchor="end" fill="#0F0A1E" font-weight="600">Dried lentils, beans</text>
+    <rect x="212" y="78" width="96" height="24" rx="6" fill="#10B981"/>
+
+    <text x="196" y="136" text-anchor="end" fill="#0F0A1E" font-weight="600">Eggs</text>
+    <rect x="212" y="120" width="150" height="24" rx="6" fill="#10B981" opacity="0.85"/>
+
+    <text x="196" y="178" text-anchor="end" fill="#0F0A1E" font-weight="600">Tofu, soya</text>
+    <rect x="212" y="162" width="198" height="24" rx="6" fill="#06B6D4"/>
+
+    <text x="196" y="220" text-anchor="end" fill="#0F0A1E" font-weight="600">Paneer, dairy</text>
+    <rect x="212" y="204" width="268" height="24" rx="6" fill="#06B6D4" opacity="0.8"/>
+
+    <text x="196" y="262" text-anchor="end" fill="#0F0A1E" font-weight="600">Chicken</text>
+    <rect x="212" y="246" width="356" height="24" rx="6" fill="#F97316"/>
+
+    <text x="196" y="304" text-anchor="end" fill="#0F0A1E" font-weight="600">Red meat, fish</text>
+    <rect x="212" y="288" width="452" height="24" rx="6" fill="#EC4899"/>
+  </g>
+
+  <path d="M212 328 h456" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="212" y="350" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#047857">Lower cost per serving</text>
+  <text x="668" y="350" text-anchor="end" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#BE185D">Higher cost per serving</text>
+
+  <text x="400" y="384" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#94A3B8">Relative ordering only. Actual prices vary by country, season and supplier, so compare your own local costs.</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="ooTitle ooDesc">
+  <title id="ooTitle">The one in, one out rule</title>
+  <desc id="ooDesc">A cycle showing that when a new item enters the home, a comparable item leaves, keeping the total number of possessions stable instead of slowly increasing.</desc>
+  <rect width="800" height="380" fill="#F8F7FF"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Keeping a space tidy is an inflow problem</text>
+
+  <rect x="290" y="130" width="220" height="120" rx="16" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+  <text x="400" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#5B21B6">YOUR HOME</text>
+  <text x="400" y="208" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#64748B">Total stays steady</text>
+
+  <path d="M110 190 h150" stroke="#10B981" stroke-width="4" stroke-linecap="round"/>
+  <path d="M248 180 l14 10 -14 10" fill="none" stroke="#10B981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="180" y="168" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#047857">ONE IN</text>
+  <text x="180" y="224" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">A new shirt, mug,</text>
+  <text x="180" y="242" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">book or gadget</text>
+
+  <path d="M540 190 h150" stroke="#EC4899" stroke-width="4" stroke-linecap="round"/>
+  <path d="M678 180 l14 10 -14 10" fill="none" stroke="#EC4899" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="620" y="168" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#BE185D">ONE OUT</text>
+  <text x="620" y="224" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">A comparable item</text>
+  <text x="620" y="242" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#64748B">donated or discarded</text>
+
+  <text x="400" y="300" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Without a limit, possessions only ever increase, which is why decluttered homes refill within months.</text>
+  <text x="400" y="326" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">The rule works because it makes the cost of acquiring something visible at the moment you acquire it.</text>
+  <text x="400" y="362" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#5B21B6">Apply it per category &#183; Clothes for clothes, books for books</text>
+</svg>

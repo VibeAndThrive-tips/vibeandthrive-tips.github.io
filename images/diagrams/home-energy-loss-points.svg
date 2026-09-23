@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="hlTitle hlDesc">
+  <title id="hlTitle">Where a home commonly loses heat and energy</title>
+  <desc id="hlDesc">A house cross-section marking the common points of energy loss: the roof and loft, external walls, windows and glazing, doors and draughts, and the floor, with a note that cheap sealing fixes usually come before expensive upgrades.</desc>
+  <rect width="800" height="400" fill="#F8F7FF"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Find the leaks before buying the upgrades</text>
+
+  <path d="M300 106 L440 56 L580 106 Z" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+  <rect x="320" y="106" width="240" height="168" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+  <rect x="356" y="146" width="60" height="56" fill="#E0F2FE" stroke="#06B6D4" stroke-width="3"/>
+  <rect x="464" y="146" width="60" height="56" fill="#E0F2FE" stroke="#06B6D4" stroke-width="3"/>
+  <rect x="404" y="220" width="56" height="54" fill="#FDE68A" stroke="#F59E0B" stroke-width="3"/>
+  <line x1="300" y1="274" x2="580" y2="274" stroke="#94A3B8" stroke-width="4"/>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13">
+    <circle cx="440" cy="74" r="13" fill="#EC4899"/><text x="440" y="79" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="604" y="70" font-weight="700" fill="#BE185D">Roof and loft</text>
+    <text x="604" y="90" fill="#64748B">Heat rises, so this is often the</text>
+    <text x="604" y="108" fill="#64748B">biggest single loss</text>
+
+    <circle cx="324" cy="180" r="13" fill="#7C3AED"/><text x="324" y="185" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="60" y="164" font-weight="700" fill="#5B21B6">External walls</text>
+    <text x="60" y="184" fill="#64748B">Large surface area,</text>
+    <text x="60" y="202" fill="#64748B">expensive to improve</text>
+
+    <circle cx="386" cy="140" r="13" fill="#06B6D4"/><text x="386" y="145" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="604" y="150" font-weight="700" fill="#0E7490">Windows and glazing</text>
+    <text x="604" y="170" fill="#64748B">Gaps and single glazing</text>
+    <text x="604" y="188" fill="#64748B">lose more than the glass itself</text>
+
+    <circle cx="432" cy="248" r="13" fill="#F59E0B"/><text x="432" y="253" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="604" y="230" font-weight="700" fill="#B45309">Doors and draughts</text>
+    <text x="604" y="250" fill="#64748B">Cheapest to fix and usually</text>
+    <text x="604" y="268" fill="#64748B">the fastest saving</text>
+
+    <circle cx="324" cy="274" r="13" fill="#10B981"/><text x="324" y="279" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">5</text>
+    <text x="60" y="256" font-weight="700" fill="#047857">Floor</text>
+    <text x="60" y="276" fill="#64748B">Often overlooked in</text>
+    <text x="60" y="294" fill="#64748B">older properties</text>
+  </g>
+
+  <text x="400" y="336" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Sealing draughts and insulating a loft usually cost least and act fastest, which is why they come before new windows.</text>
+  <text x="400" y="368" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">Proportions vary by building age, construction and climate. An energy assessment gives figures for your own home.</text>
+</svg>
