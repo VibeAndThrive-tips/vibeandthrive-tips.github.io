@@ -43,40 +43,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Contact Form Submission
-const contactForm = document.querySelector('.contact-form');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        // Basic form validation
-        const name = this.querySelector('input[placeholder="Your Name"]').value.trim();
-        const email = this.querySelector('input[placeholder="Your Email"]').value.trim();
-        const subject = this.querySelector('input[placeholder="Subject"]').value.trim();
-        const message = this.querySelector('textarea').value.trim();
-        
-        if (!name || !email || !subject || !message) {
-            showNotification('Please fill in all fields', 'error');
-            return;
-        }
-        
-        if (!isValidEmail(email)) {
-            showNotification('Please enter a valid email address', 'error');
-            return;
-        }
-        
-        const button = this.querySelector('button');
-        button.disabled = true;
-        showNotification('Contact form coming soon! For now, reach us via social media.', 'info');
-        setTimeout(() => { button.disabled = false; }, 2000);
-    });
-}
-
-// Email validation function
-function isValidEmail(email) {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-}
 
 // Notification system
 function showNotification(message, type = 'info') {
