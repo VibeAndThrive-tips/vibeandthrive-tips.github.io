@@ -43,22 +43,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Newsletter Form Submission
-const newsletterForm = document.querySelector('.newsletter-form');
-if (newsletterForm) {
-    newsletterForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        const email = this.querySelector('input[type="email"]').value;
-        
-        if (email) {
-            const button = this.querySelector('button');
-            button.disabled = true;
-            showNotification('Thanks! Newsletter coming soon — we\'ll notify you when it launches.', 'info');
-            setTimeout(() => { button.disabled = false; this.reset(); }, 2000);
-        }
-    });
-}
-
 // Contact Form Submission
 const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
@@ -338,9 +322,7 @@ function trackEvent(eventName, eventData = {}) {
 // Track form submissions
 document.addEventListener('submit', (e) => {
     const form = e.target;
-    if (form.classList.contains('newsletter-form')) {
-        trackEvent('newsletter_signup');
-    } else if (form.classList.contains('contact-form')) {
+  if (form.classList.contains('contact-form')) {
         trackEvent('contact_form_submit');
     }
 });
@@ -433,7 +415,6 @@ const CAT_META = {
 
 document.addEventListener('DOMContentLoaded', function() {
   if (!document.querySelector('.tip-page')) return;
-  initTipNewsletter();
   initSocialShare();
   injectSEOSchemas();
 });
@@ -662,21 +643,6 @@ function initAuthorBio() {
       '<p>Hari writes and edits practical guides on food, home living, productivity, and travel. Articles are checked for clarity, practical detail, and unsupported promises before publication.</p>' +
     '</div>';
   tipActions.parentNode.insertBefore(bio, tipActions);
-}
-
-function initTipNewsletter() {
-  var tipActions = document.querySelector('.tip-actions');
-  if (!tipActions) return;
-  var nl = document.createElement('div');
-  nl.className = 'tip-newsletter';
-  nl.innerHTML =
-    '<h3><i class="fas fa-envelope"></i> Enjoyed this guide?</h3>' +
-    '<p>Get practical tips on food, home living, productivity, and travel — delivered weekly.</p>' +
-    '<form class="newsletter-form">' +
-      '<input type="email" placeholder="Your email address" required>' +
-      '<button type="submit" class="btn btn-primary">Subscribe Free</button>' +
-    '</form>';
-  tipActions.parentNode.insertBefore(nl, tipActions);
 }
 
 function initSearch() {
