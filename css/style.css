@@ -1269,6 +1269,80 @@ section { padding: var(--spacing-20) 0; }
 }
 .tip-highlight i { color: var(--primary-color); }
 
+/* Key takeaways summary */
+.key-takeaways {
+    background: var(--background-light);
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--primary-color);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-6);
+    margin: var(--spacing-6) 0 var(--spacing-8);
+}
+.key-takeaways h2 {
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--primary-dark);
+    margin: 0 0 var(--spacing-4);
+    display: flex; align-items: center; gap: var(--spacing-2);
+}
+.key-takeaways h2 i { color: var(--primary-color); }
+.key-takeaways ul { margin: 0; padding-left: var(--spacing-5); }
+.key-takeaways li { color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--spacing-2); }
+.key-takeaways li:last-child { margin-bottom: 0; }
+.key-takeaways li strong { color: var(--text-primary); }
+
+/* Reference tables */
+.tip-table-wrap {
+    margin: var(--spacing-6) 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+}
+.tip-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.925rem;
+    background: var(--background-white);
+}
+.tip-table caption {
+    caption-side: top;
+    text-align: left;
+    padding: var(--spacing-4) var(--spacing-5) 0;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-light);
+}
+.tip-table th,
+.tip-table td {
+    padding: var(--spacing-3) var(--spacing-4);
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: top;
+    line-height: 1.6;
+}
+.tip-table thead th {
+    background: var(--background-light);
+    color: var(--text-primary);
+    font-weight: 700;
+    white-space: nowrap;
+}
+.tip-table tbody th {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+.tip-table td { color: var(--text-secondary); }
+.tip-table tbody tr:last-child th,
+.tip-table tbody tr:last-child td { border-bottom: none; }
+.tip-table tbody tr:hover { background: var(--background-light); }
+
+@media (max-width: 600px) {
+    .tip-table { font-size: 0.85rem; }
+    .tip-table th, .tip-table td { padding: var(--spacing-2) var(--spacing-3); }
+}
+
 /* Implementation cards */
 .implementation-tips {
     display: grid;
