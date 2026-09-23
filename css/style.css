@@ -1343,6 +1343,35 @@ section { padding: var(--spacing-20) 0; }
     .tip-table th, .tip-table td { padding: var(--spacing-2) var(--spacing-3); }
 }
 
+/* Original explanatory diagrams */
+.tip-diagram {
+    margin: var(--spacing-8) 0;
+    padding: 0;
+}
+.tip-diagram img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    background: var(--background-light);
+}
+.tip-diagram figcaption {
+    margin-top: var(--spacing-3);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    text-align: center;
+}
+.tip-diagram figcaption span {
+    display: block;
+    margin-top: var(--spacing-1);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-light);
+}
+
 /* Implementation cards */
 .implementation-tips {
     display: grid;

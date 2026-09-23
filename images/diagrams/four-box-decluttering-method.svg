@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="fbTitle fbDesc">
+  <title id="fbTitle">The four-box decluttering method</title>
+  <desc id="fbDesc">Four labelled boxes used while decluttering a room: keep for items used regularly, relocate for items belonging elsewhere, donate for usable items no longer needed, and discard for broken or unusable items.</desc>
+  <rect width="800" height="400" fill="#F8F7FF"/>
+  <text x="400" y="44" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0F0A1E">Every item goes into exactly one box</text>
+
+  <!-- Keep -->
+  <rect x="56" y="76" width="166" height="180" rx="16" fill="#FFFFFF" stroke="#10B981" stroke-width="3"/>
+  <rect x="56" y="76" width="166" height="46" rx="16" fill="#10B981"/>
+  <text x="139" y="106" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">KEEP</text>
+  <text x="139" y="154" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Used regularly</text>
+  <text x="139" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">and has a home</text>
+  <text x="139" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#94A3B8">Return it to that spot</text>
+
+  <!-- Relocate -->
+  <rect x="242" y="76" width="166" height="180" rx="16" fill="#FFFFFF" stroke="#06B6D4" stroke-width="3"/>
+  <rect x="242" y="76" width="166" height="46" rx="16" fill="#06B6D4"/>
+  <text x="325" y="106" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">RELOCATE</text>
+  <text x="325" y="154" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Belongs in a</text>
+  <text x="325" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">different room</text>
+  <text x="325" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#94A3B8">Move at the end, not now</text>
+
+  <!-- Donate -->
+  <rect x="428" y="76" width="166" height="180" rx="16" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+  <rect x="428" y="76" width="166" height="46" rx="16" fill="#7C3AED"/>
+  <text x="511" y="106" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">DONATE</text>
+  <text x="511" y="154" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Still usable, but</text>
+  <text x="511" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">no longer needed</text>
+  <text x="511" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#94A3B8">Remove from the house</text>
+
+  <!-- Discard -->
+  <rect x="614" y="76" width="166" height="180" rx="16" fill="#FFFFFF" stroke="#EC4899" stroke-width="3"/>
+  <rect x="614" y="76" width="166" height="46" rx="16" fill="#EC4899"/>
+  <text x="697" y="106" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">DISCARD</text>
+  <text x="697" y="154" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Broken, expired</text>
+  <text x="697" y="178" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">or unusable</text>
+  <text x="697" y="220" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="13" fill="#94A3B8">Recycle where possible</text>
+
+  <text x="400" y="306" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" fill="#64748B">The method works because it removes the option of putting something down</text>
+  <text x="400" y="330" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" fill="#64748B">to decide later, which is how clutter accumulates in the first place.</text>
+  <text x="400" y="368" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#5B21B6">One room at a time &#183; One decision per item</text>
+</svg>

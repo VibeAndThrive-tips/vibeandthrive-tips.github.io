@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="afTitle afDesc">
+  <title id="afTitle">Air fryer basket arrangement: overcrowded versus single layer</title>
+  <desc id="afDesc">A comparison showing that overlapping food in a crowded basket blocks airflow and steams, while a spaced single layer lets hot air reach every surface and crisp the food.</desc>
+  <rect width="800" height="400" fill="#F8F7FF"/>
+
+  <!-- Left: overcrowded -->
+  <text x="200" y="46" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#0F0A1E">Overcrowded basket</text>
+  <rect x="60" y="72" width="280" height="190" rx="22" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="3"/>
+  <g fill="#F97316" opacity="0.92">
+    <circle cx="130" cy="140" r="34"/>
+    <circle cx="186" cy="126" r="34"/>
+    <circle cx="242" cy="142" r="34"/>
+    <circle cx="158" cy="192" r="34"/>
+    <circle cx="214" cy="196" r="34"/>
+    <circle cx="268" cy="188" r="34"/>
+  </g>
+  <g stroke="#94A3B8" stroke-width="3" stroke-linecap="round" opacity="0.75">
+    <path d="M92 104 L108 120"/><path d="M108 104 L92 120"/>
+    <path d="M296 104 L312 120"/><path d="M312 104 L296 120"/>
+  </g>
+  <text x="200" y="296" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" fill="#64748B">Pieces overlap, so hot air cannot reach</text>
+  <text x="200" y="318" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" fill="#64748B">every surface</text>
+  <text x="200" y="352" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#EC4899">Result: food steams</text>
+
+  <!-- Divider -->
+  <line x1="400" y1="70" x2="400" y2="330" stroke="#EDE9FE" stroke-width="3"/>
+
+  <!-- Right: single layer -->
+  <text x="600" y="46" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#0F0A1E">Single layer, with space</text>
+  <rect x="460" y="72" width="280" height="190" rx="22" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="3"/>
+  <g fill="#F97316" opacity="0.92">
+    <circle cx="530" cy="140" r="30"/>
+    <circle cx="600" cy="140" r="30"/>
+    <circle cx="670" cy="140" r="30"/>
+    <circle cx="565" cy="205" r="30"/>
+    <circle cx="635" cy="205" r="30"/>
+  </g>
+  <g stroke="#06B6D4" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M498 100 v28"/><path d="M492 122 l6 8 6-8"/>
+    <path d="M702 100 v28"/><path d="M696 122 l6 8 6-8"/>
+    <path d="M600 92 v22"/><path d="M594 108 l6 8 6-8"/>
+  </g>
+  <text x="600" y="296" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" fill="#64748B">Gaps let circulating air dry and brown</text>
+  <text x="600" y="318" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="15" fill="#64748B">the whole surface</text>
+  <text x="600" y="352" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#10B981">Result: food crisps</text>
+</svg>

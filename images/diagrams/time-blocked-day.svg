@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="tbTitle tbDesc">
+  <title id="tbTitle">A time-blocked day compared with an open task list</title>
+  <desc id="tbDesc">Two columns comparing an unscheduled task list with a time-blocked day, where deep work is placed in the morning, shallow tasks are batched in the afternoon, and buffer gaps sit between blocks.</desc>
+  <rect width="800" height="440" fill="#F8F7FF"/>
+
+  <!-- Left: task list -->
+  <text x="185" y="42" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#0F0A1E">Open task list</text>
+  <rect x="60" y="62" width="250" height="300" rx="16" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="3"/>
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">
+    <rect x="84" y="90" width="14" height="14" rx="3" fill="none" stroke="#94A3B8" stroke-width="2"/><text x="110" y="102">Write project proposal</text>
+    <rect x="84" y="130" width="14" height="14" rx="3" fill="none" stroke="#94A3B8" stroke-width="2"/><text x="110" y="142">Reply to emails</text>
+    <rect x="84" y="170" width="14" height="14" rx="3" fill="none" stroke="#94A3B8" stroke-width="2"/><text x="110" y="182">Review pull requests</text>
+    <rect x="84" y="210" width="14" height="14" rx="3" fill="none" stroke="#94A3B8" stroke-width="2"/><text x="110" y="222">Plan next sprint</text>
+    <rect x="84" y="250" width="14" height="14" rx="3" fill="none" stroke="#94A3B8" stroke-width="2"/><text x="110" y="262">Update documentation</text>
+    <rect x="84" y="290" width="14" height="14" rx="3" fill="none" stroke="#94A3B8" stroke-width="2"/><text x="110" y="302">Call the bank</text>
+  </g>
+  <text x="185" y="392" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">No time assigned, so the easiest</text>
+  <text x="185" y="412" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">task usually wins.</text>
+
+  <!-- Arrow -->
+  <path d="M340 210 h58" stroke="#7C3AED" stroke-width="4" stroke-linecap="round"/>
+  <path d="M388 198 l14 12 -14 12" fill="none" stroke="#7C3AED" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right: blocked day -->
+  <text x="615" y="42" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#0F0A1E">The same day, time blocked</text>
+  <rect x="440" y="62" width="300" height="300" rx="16" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="3"/>
+
+  <g font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#94A3B8">
+    <text x="468" y="102">09:00</text><text x="468" y="166">11:00</text><text x="468" y="216">13:00</text><text x="468" y="280">15:00</text><text x="468" y="330">17:00</text>
+  </g>
+
+  <rect x="512" y="84" width="204" height="62" rx="9" fill="#7C3AED"/>
+  <text x="528" y="108" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Deep work</text>
+  <text x="528" y="130" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#EDE9FE">Project proposal</text>
+
+  <rect x="512" y="154" width="204" height="20" rx="6" fill="#EDE9FE"/>
+  <text x="528" y="169" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="11" fill="#7C3AED">Buffer</text>
+
+  <rect x="512" y="182" width="204" height="48" rx="9" fill="#06B6D4"/>
+  <text x="528" y="204" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Batched shallow work</text>
+  <text x="528" y="222" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#ECFEFF">Email, reviews, calls</text>
+
+  <rect x="512" y="238" width="204" height="20" rx="6" fill="#EDE9FE"/>
+  <text x="528" y="253" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="11" fill="#7C3AED">Buffer</text>
+
+  <rect x="512" y="266" width="204" height="48" rx="9" fill="#F97316"/>
+  <text x="528" y="288" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Planning</text>
+  <text x="528" y="306" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" fill="#FFF7ED">Sprint, documentation</text>
+
+  <rect x="512" y="322" width="204" height="24" rx="8" fill="#10B981"/>
+  <text x="528" y="339" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Shutdown review</text>
+
+  <text x="615" y="392" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">Demanding work sits in the sharpest hours,</text>
+  <text x="615" y="412" text-anchor="middle" font-family="'Plus Jakarta Sans',Segoe UI,sans-serif" font-size="14" fill="#64748B">and buffers absorb the overruns.</text>
+</svg>
